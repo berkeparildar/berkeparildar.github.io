@@ -1,0 +1,9 @@
+<!-- project-tile.component.html -->
+<div class="project-tile" (click)="openProjectView()" >
+    <!-- Game Genre (upper right corner) -->
+    <div class="genre">{{ genre }}</div>
+    <!-- Game Title -->
+    <div class="title">{{ title }}</div>
+    <!-- Game Image (centered) -->
+    <img [src]="imageUrl" alt="Game Image" />
+  </div>

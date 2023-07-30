@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Projects</h1>
+  <div class="project-grid">
+    <div class="row">
+      <div class="col-md-6 col-lg-4 d-flex justify-content-center" *ngFor="let project of projects">
+        <app-project-tile
+          [genre]="project.genre"
+          [title]="project.title"
+          [imageUrl]="project.imageUrl"
+          [description]="project.description"
+          [features]="project.features"
+          [howToPlay]="project.howToPlay"
+          [videoId]="project.videoId"
+        ></app-project-tile> <!-- Add the closing tag for app-project-tile -->
+      </div>
+    </div>
+  </div>
+</div>
