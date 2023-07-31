@@ -1,0 +1,74 @@
+/* project-view.component.css */
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 8px;
+    border: solid 1px;
+    border-color: #f38ba8;
+    background-color: #1e1e2e; /* Set the background color */
+    /* Set the modal-container height to the window height */
+  }
+  
+  .modal-content {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px; /* Limit the width of the modal content */
+    color: #fff;
+    padding: 20px;
+    overflow: auto; /* Enable scrolling if content overflows */
+    max-height: 100vh; /* Limit the modal content height to the window height */
+    aspect-ratio: 2 / 1; /* Set the aspect ratio to 1:1 (square) */
+  }
+  
+  
+  .project-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .grid-layout {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* Three rows with equal height */
+    grid-gap: 20px; /* Gap between grid items */
+    margin-bottom: 20px;
+  }
+  
+  .grid-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .grid-row .text-part,
+  .grid-row .image-part {
+    flex: 1;
+  }
+  
+  .grid-row .image-part img {
+    max-width: 100%;
+    max-height: 200px; /* Limit the image height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .features-section ul,
+  .how-to-play-section ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .plyr__video-embed {
+    max-width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Set the aspect ratio to 16:9 (height / width) */
+    position: relative;
+  }
+  
+  .plyr__video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

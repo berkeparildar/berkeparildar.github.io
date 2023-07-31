@@ -12,6 +12,8 @@ canvas {
     z-index: -1;
 }
 
+
+
 .custom-header {
     background-color: #1e1e2e;
     border-radius: 8px;
@@ -65,4 +67,12 @@ canvas {
 .custom-modal {
     background-color: rgba(0, 0, 0, 0.3); /* Transparent background with 50% opacity */
     backdrop-filter: blur(5px); /* Apply the blur effect */
+}
+
+  /* styles.css or project-view.component.css */
+.mat-mdc-dialog-container {
+    padding: 5% 0%  ;
+    --mdc-dialog-container-color: transparent !important;
+
   }
+  

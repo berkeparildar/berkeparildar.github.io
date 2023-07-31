@@ -1,45 +1,52 @@
 <div class="modal-container">
-    <div class="modal-content">
-      <!-- Project Title -->
-      <h2 class="project-title">{{ projectTitle }}</h2>
-  
-      <!-- Project Description -->
-      <div class="project-description">
-        <!-- Description -->
-        <div class="description-section">
+  <div class="modal-content">
+    <!-- Project Title -->
+    <h2 class="project-title">{{ projectTitle }}</h2>
+
+    <!-- Grid Layout -->
+    <div class="grid-layout">
+      <!-- Row 1 -->
+      <div class="grid-row">
+        <div class="text-part">
+          <h3>Description</h3>
           <p>{{ projectDescription }}</p>
+        </div>
+        <div class="image-part">
           <img src="path-to-description-image.jpg" alt="Description Image" />
         </div>
-  
-        <!-- Features -->
-        <div class="features-section">
+      </div>
+
+      <!-- Row 2 -->
+      <div class="grid-row">
+        <div class="text-part">
           <h3>Features</h3>
           <ul>
             <li *ngFor="let feature of featuresList">{{ feature }}</li>
           </ul>
+        </div>
+        <div class="image-part">
           <img src="path-to-features-image.jpg" alt="Features Image" />
         </div>
-  
-        <!-- How to Play -->
-        <div class="how-to-play-section">
+      </div>
+
+      <!-- Row 3 -->
+      <div class="grid-row">
+        <div class="text-part">
           <h3>How to Play</h3>
           <ol>
             <li *ngFor="let step of howToPlayList">{{ step }}</li>
           </ol>
+        </div>
+        <div class="image-part">
           <img src="path-to-how-to-play-image.jpg" alt="How to Play Image" />
         </div>
       </div>
-  
-      <!-- Video Player -->
-      <div class="plyr__video-embed" id="player">
-        <!-- Replace 'your-video-id' with the actual YouTube video ID -->
-        <iframe
-          src="https://www.youtube.com/embed/7xJhA1cR8V0"
-          allowfullscreen
-          allowtransparency
-          allow="autoplay"
-        ></iframe>
-      </div>
+    </div>
+
+    <!-- Video Player -->
+    <div class="plyr__video-embed" id="player">
+      <!-- Replace 'your-video-id' with the actual YouTube video ID -->
+      <iframe [src]="safeYoutubeVideoUrl" allowfullscreen allowtransparency allow="autoplay"></iframe>
     </div>
   </div>
-  
+</div>

@@ -28,7 +28,7 @@ export class ProjectTileComponent {
       featuresList: this.features,
       howToPlayList: this.howToPlay,
     };
-    dialogConfig.panelClass = 'custom-modal';
+    dialogConfig.panelClass = 'custom-container';
     dialogConfig.backdropClass = 'custom-modal'; // Apply the blur effect
 
     const dialogRef = this.dialog.open(ProjectViewComponent, dialogConfig);
