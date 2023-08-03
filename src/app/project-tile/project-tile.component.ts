@@ -13,11 +13,17 @@ export class ProjectTileComponent {
   @Input() title!: string;
   @Input() imageUrl!: string;
   @Input() description!: string;
-  @Input() features!: string;
-  @Input() howToPlay!: string;
+  @Input() titleOne!: string;
+  @Input() partOne!: string;
+  @Input() titleTwo!: string;
+  @Input() partTwo!: string;
   @Input() videoId!: string;
+  @Input() imageOnePath!: string;
+  @Input() imageTwoPath!: string;
+  @Input() imageThreePath!: string;
+  @Input() hasVideo!: boolean;
 
-  constructor(private dialog: MatDialog) {}
+  constructor(private dialog: MatDialog) { }
 
   openProjectView(): void {
     const dialogConfig = new MatDialogConfig();
@@ -25,12 +31,17 @@ export class ProjectTileComponent {
       projectTitle: this.title,
       projectDescription: this.description,
       youtubeVideoUrl: this.videoId,
-      featuresList: this.features,
-      howToPlayList: this.howToPlay,
+      partOneTitle: this.titleOne,
+      partOneText: this.partOne,
+      partTwoTitle: this.titleTwo,
+      partTwoText: this.partTwo,
+      imageOnePath: this.imageOnePath,
+      imageTwoPath: this.imageTwoPath,
+      imageThreePath: this.imageThreePath,
+      hasVideo: this.hasVideo
     };
     dialogConfig.panelClass = 'custom-container';
-    dialogConfig.backdropClass = 'custom-modal'; // Apply the blur effect
-
+    dialogConfig.backdropClass = 'custom-modal';
     const dialogRef = this.dialog.open(ProjectViewComponent, dialogConfig);
   }
 }

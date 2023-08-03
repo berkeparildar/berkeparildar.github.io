@@ -8,10 +8,16 @@
           [title]="project.title"
           [imageUrl]="project.imageUrl"
           [description]="project.description"
-          [features]="project.features"
-          [howToPlay]="project.howToPlay"
+          [titleOne]="project.titleOne"
+          [partOne]="project.partOne"
+          [titleTwo]="project.titleTwo"
+          [partTwo]="project.partTwo"
           [videoId]="project.videoId"
-        ></app-project-tile> <!-- Add the closing tag for app-project-tile -->
+          [imageOnePath]="project.imageOnePath"
+          [imageTwoPath]="project.imageTwoPath"
+          [imageThreePath]="project.imageThreePath"
+          [hasVideo] = project.hasVideo
+        ></app-project-tile>
       </div>
     </div>
   </div>

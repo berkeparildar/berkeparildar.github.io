@@ -12,67 +12,20 @@ canvas {
     z-index: -1;
 }
 
-
-
-.custom-header {
-    background-color: #1e1e2e;
-    border-radius: 8px;
-    margin-top: 20px;
-    /* Adjust the top margin as needed */
-    margin-left: 15%;
-    /* Automatically add space on the left */
-    margin-right: 15%;
-    /* Automatically add space on the right */
-    /*max-width: 800px; /* Set a maximum width for the header */
-}
-
-.custom-header a {
-    color: #cdd6f4;
-    transition: color 0.5s;
-}
-
-.navbar-nav li {
-    padding-left: 40px;
-}
-
-.custom-header a:hover {
-    color: #cba6f7;
-}
-.main-content {
-    background-color: #1e1e2e;
-    border-radius: 8px;
-    padding: 5%;
-    height: 50%;
-    width: 50%;
-    color: #cdd6f4;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Add space between the flex items */
-}
-
-/* styles.css */
-.my-main {
-    min-height: 80vh;
-    /* Adjust this value to control the vertical centering */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-content button {
-    align-self: flex-end;
-}
-
-/* styles.css */
 .custom-modal {
     background-color: rgba(0, 0, 0, 0.3); /* Transparent background with 50% opacity */
     backdrop-filter: blur(5px); /* Apply the blur effect */
 }
 
+.custom-container {
+    padding: 5%;
+}
   /* styles.css or project-view.component.css */
 .mat-mdc-dialog-container {
-    padding: 5% 0%  ;
     --mdc-dialog-container-color: transparent !important;
-
-  }
+}
+.cdk-overlay-pane {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
   
