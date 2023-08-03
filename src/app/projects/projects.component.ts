@@ -134,7 +134,13 @@ export class ProjectsComponent implements OnInit {
       "_Action bar and UI: The action bar at the bottom allows you to switch between weapons and healthkits quickly." +
       "_The UI displays your health and current ammo, keeping you informed and prepared for battle.",
       titleTwo: "How to Play",
-      partTwo: "",
+      partTwo: "Explore the town and find your weapon of choice" +
+      "_Find magazines and health packs to increase your chance of success." +
+      "_Visit the enclosed challenge area in which you will face with wave of zombies until you win" + 
+      "_In order to leave the challenge area victorious, you must score more than a 100 points." +
+      "_Do not forget to pick power-ups in the challenge area to help your fight against the zombies" + 
+      "_Go over to the boss area and face of with the Huge Poisonous Zombie!" + 
+      "_Start the game again, but this time the zombies are much more deadly!",
       videoId: "https://www.youtube.com/embed/7xJhA1cR8V0",
       imageOnePath: "assets/pictures/zomcube/ge.png",
       imageTwoPath: "assets/pictures/zomcube/chl.png", 
