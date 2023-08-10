@@ -14,7 +14,7 @@ interface Project {
   imageOnePath: string;
   imageTwoPath: string;
   imageThreePath: string;
-  hasVideo: boolean;// Add the videoId property
+  hasVideo: boolean;
 }
 
 @Component({

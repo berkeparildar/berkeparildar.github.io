@@ -13,8 +13,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'projects', pathMatch: 'full' },
-  { path: 'projects', component: ProjectsComponent },
+  { path: '', component: ProjectsComponent },
   { path: 'about', component: MainPageComponent },
 ];
 
