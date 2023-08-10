@@ -25,6 +25,40 @@ interface Project {
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
+    genre: 'Driving Game',
+      title: 'Freeway Drive',
+      imageUrl: 'assets/pictures/freewaydrive/FreewayDrive.png',
+      description: "Freeway Drive is an exhilarating endless driving game where players take control of a constantly moving car on a busy freeway." + 
+      " The car gradually gains speed as the game progresses, challenging players' reflexes and decision-making." +
+      " The speedometer at the bottom left corner displays the car's current speed." + 
+      " The objective is to avoid colliding with randomly generated cars on the freeway for as long as possible." + 
+      " To navigate through the traffic, players can swipe left or right to change lanes.",
+      titleOne: "Features",
+      partOne: "Endless driving gameplay, offering a challenging and exciting experience.." + 
+      "_Gradually increasing car speed, testing your reflexes and ability to navigate through traffic." + 
+      "_Realistic freeway environment with randomly generated cars and smooth controls." +
+      "_Dynamic lane-changing mechanics to avoid collisions and maneuver through traffic." +
+      "_Pick up handling powerups to enhance your ability to change lanes quickly." +
+      "_Collect ghost powerups to temporarily phase through other cars and avoid collisions." +
+      "_Earn money pickups on the freeway and spend them on customizing your car's color." +
+      "_Watch rewarded ad videos for a second chance if you crash during the game." +
+      "_Strive for the highest score and compete with yourself to beat your previous records." +
+      "_Keep track of your score, high score, and total money.",
+      titleTwo: "How to Play",
+      partTwo: "Swipe left or right to change lanes and avoid collisions with other cars." +
+      "_Watch out for randomly generated cars changing lanes, indicated by their blinkers." +
+      "_Collect handling powerups to reduce lane-changing time, aiding in avoiding collisions." +
+      "_Pick up ghost powerups to temporarily become transparent and move through other cars to avoid collisions." +
+      "_Customize your car's color using one of the six available color options, each costing 100$." +
+      "_If you crash, you can watch a rewarded ad video to continue the game from where you left off." +
+      "_Reach the highest score possible by surviving as long as you can, combining top speed and survival time.",
+      videoId: "https://www.youtube.com/embed/u6CHQkcB8Vs",
+      imageOnePath: "assets/pictures/freewaydrive/play.gif",
+      imageTwoPath: "assets/pictures/freewaydrive/shop.gif", 
+      imageThreePath: "assets/pictures/freewaydrive/crash.gif",
+      hasVideo: true
+    },
+    {
       genre: 'Runner Game',
       title: 'Gun Run',
       imageUrl: 'assets/pictures/gunrun/GunRun.png',
