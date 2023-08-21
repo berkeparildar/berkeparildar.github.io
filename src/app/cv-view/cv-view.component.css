@@ -5,10 +5,8 @@
   justify-content: center;
   height: 100vh;
   width: 60vw;
-  height: 80vh;
   border-radius: 8px;
-  border: solid 1px;
-  border-color: #f38ba8;
+  border: 1px solid #a6e3a1;
   background-color: #1e1e2e;
 }
 
@@ -114,11 +112,4 @@
   }
 }
 
-.github-icon{
-  color: #cba6f7;
-}
-
-.github-icon:focus {
-  outline: none;
-}
 @media (max-width: 480px) {}

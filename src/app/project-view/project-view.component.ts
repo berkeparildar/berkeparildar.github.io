@@ -13,7 +13,9 @@ export class ProjectViewComponent implements OnInit {
   safeURL!: SafeResourceUrl;
   constructor(public dialogRef: MatDialogRef<ProjectViewComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any, private sanitizer: DomSanitizer
-  ) { }
+  ) {
+    console.log(data.repoLink)
+  }
 
   ngOnInit() {
     this.safeURL = this.sanitizer.bypassSecurityTrustResourceUrl(this.data.youtubeVideoUrl);
@@ -21,6 +23,10 @@ export class ProjectViewComponent implements OnInit {
 
   get projectTitle(): string {
     return this.data.projectTitle;
+  }
+
+  get repoLink(): string {
+    return this.data.repoLink;
   }
 
   get projectDescription(): string {

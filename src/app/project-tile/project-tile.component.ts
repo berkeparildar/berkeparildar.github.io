@@ -11,6 +11,7 @@ import { ProjectViewComponent } from '../project-view/project-view.component';
 export class ProjectTileComponent {
   @Input() genre!: string;
   @Input() title!: string;
+  @Input() repoLink!: string;
   @Input() imageUrl!: string;
   @Input() description!: string;
   @Input() titleOne!: string;
@@ -29,6 +30,7 @@ export class ProjectTileComponent {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.data = {
       projectTitle: this.title,
+      repoLink: this.repoLink,
       projectDescription: this.description,
       youtubeVideoUrl: this.videoId,
       partOneTitle: this.titleOne,

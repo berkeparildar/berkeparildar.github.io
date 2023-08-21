@@ -11,6 +11,7 @@ import { ProjectViewComponent } from './project-view/project-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
 import { Routes, RouterModule } from '@angular/router';
+import { CvViewComponent } from './cv-view/cv-view.component';
 
 const routes: Routes = [
   { path: '', component: ProjectsComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
     ProjectsComponent,
     ProjectTileComponent,
     ProjectViewComponent,
+    CvViewComponent,
   ],
   imports: [
     BrowserModule,
