@@ -26,6 +26,39 @@ interface Project {
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
+      genre: 'Puzzle Game',
+      title: 'Gem Match!',
+      repoLink: 'https://github.com/berkeparildar/Gem-Match',
+      imageUrl: 'assets/pictures/threematch/gemmatch.png',
+      description: "Three Match is an addictive puzzle game where players aim to match at least three gems of the same type vertically or horizontally." +
+        " The game features a grid of colorful gems with six different varieties." +
+        " Your task is to swap adjacent gems by touching and dragging them to create matching sets." +
+        " Gems can be swapped to the right, left, down, or upwards, allowing you to strategize and create matches.",
+      titleOne: "Features",
+      partOne: "Addictive puzzle gameplay, perfect for quick rounds of brain-teasing fun." +
+        "_A colorful grid of gems with six different types for variety." +
+        "_Strategize to create big matches and maximize your score." +
+        "_Time-based gameplay adds a sense of urgency and excitement." +
+        "_Score points for each gem matched and earn additional time." +
+        "_Game over screen displays your score and the high score record." +
+        "_Continue playing with a fresh 10 seconds by watching a rewarded ad." +
+        "_Similar to popular match-three games like Candy Crush, offering familiar and enjoyable gameplay.",
+      titleTwo: "How to Play",
+      partTwo: "Touch and drag a gem to swap it with an adjacent gem in the desired direction." +
+        "_Match at least three gems of the same type vertically or horizontally to destroy them." +
+        "_After gems are destroyed, the gems above them in the grid will fall into their place." +
+        "_Earn 100 points for each gem destroyed in a match." +
+        "_New random gems will fill in the empty spots." +
+        "_You have a 10-second time limit from the start of the game." +
+        "_Each gem in a match awards you with additional seconds." +
+        "_If you run out of time, the game ends.",
+      videoId: "https://www.youtube.com/embed/jnGv_1mKeRc",
+      imageOnePath: "assets/pictures/threematch/gifTwo.gif",
+      imageTwoPath: "assets/pictures/threematch/gifOne.gif",
+      imageThreePath: "assets/pictures/threematch/gifThree.gif",
+      hasVideo: true
+    },
+    {
       genre: 'Runner Game',
       title: 'Factory Run',
       repoLink: 'https://github.com/berkeparildar/Factory-Run',
