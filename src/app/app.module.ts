@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
 import { Routes, RouterModule } from '@angular/router';
 import { CvViewComponent } from './cv-view/cv-view.component';
+import {HttpClientModule} from "@angular/common/http";
 
 const routes: Routes = [
   { path: '', component: ProjectsComponent },
@@ -32,6 +33,7 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatDialogModule,
     RouterModule.forRoot(routes)
