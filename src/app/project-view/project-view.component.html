@@ -3,11 +3,17 @@
         <a class="github-icon" href="{{ repoLink }}" target="_blank">
             <i class="fab fa-github fa-2x"></i>
         </a>
-        <h2 class="project-title">{{ projectTitle }}</h2>
-        <div class="grid-layout">
+        <h2 class="project-title title">{{ projectTitle }}</h2>
+      <div *ngIf="hasVideo">
+        <h3 style="padding-left: 3%" class="headings">Gameplay Video</h3>
+        <div class="plyr__video-embed" id="player">
+          <iframe [src]="safeURL" allowfullscreen allowtransparency allow="autoplay"></iframe>
+        </div>
+      </div>
+        <div style="padding-top: 5%" class="grid-layout">
             <div class="grid-row">
                 <div class="text-part">
-                    <h3>Description</h3>
+                    <h3 class="headings">Description</h3>
                     <p>{{ projectDescription }}</p>
                 </div>
                 <div class="image-part">
@@ -19,7 +25,7 @@
                     <img [src]="imageTwoPath" alt="Features Image"/>
                 </div>
                 <div class="text-part">
-                    <h3>{{partOneTitle}}</h3>
+                    <h3 class="headings">{{partOneTitle}}</h3>
                     <ul>
                         <li *ngFor="let feature of partOneList">{{ feature }}</li>
                     </ul>
@@ -27,7 +33,7 @@
             </div>
             <div class="grid-row">
                 <div class="text-part">
-                    <h3>{{partTwoTitle}}</h3>
+                    <h3 class="headings">{{partTwoTitle}}</h3>
                     <ul>
                         <li *ngFor="let step of partTwoList">{{ step }}</li>
                     </ul>
@@ -37,11 +43,6 @@
                 </div>
             </div>
         </div>
-        <div *ngIf="hasVideo">
-            <h3>Gameplay Video</h3>
-            <div class="plyr__video-embed" id="player">
-                <iframe [src]="safeURL" allowfullscreen allowtransparency allow="autoplay"></iframe>
-            </div>
-        </div>
+
     </div>
 </div>
