@@ -128,11 +128,27 @@
   }
 }
 
-.github-icon{
+.github-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.github-icon {
   color: #cba6f7;
 }
 
-.github-icon:focus {
-  outline: none;
+.github-icon.left {
+  order: 1;
+}
+
+.github-icon.right {
+  order: 2;
+}
+
+.icon {
+  width: 2em;
+  height: 2em;
 }
 @media (max-width: 480px) {}

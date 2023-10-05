@@ -18,6 +18,8 @@ interface Project {
   imageTwoPath: string;
   imageThreePath: string;
   hasVideo: boolean;
+  hasStore: boolean;
+  storeUrl: string;
 }
 
 @Component({

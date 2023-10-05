@@ -49,7 +49,6 @@ export class ProjectViewComponent implements OnInit {
     return this.data.partTwoTitle;
   }
 
-
   get partTwoList(): string[] {
     return this.data.partTwoText.split('_');
   }
@@ -72,5 +71,13 @@ export class ProjectViewComponent implements OnInit {
 
   get hasVideo(): boolean {
     return this.data.hasVideo;
+  }
+
+  get hasStore(): boolean {
+    return this.data.hasStore;
+  }
+
+  get storeUrl(): string {
+    return this.data.storeUrl;
   }
 }

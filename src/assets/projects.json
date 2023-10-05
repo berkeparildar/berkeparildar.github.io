@@ -13,7 +13,27 @@
     "imageOnePath": "assets/pictures/fallparkour/dd.gif",
     "imageTwoPath": "assets/pictures/fallparkour/sc.gif",
     "imageThreePath": "assets/pictures/fallparkour/bf.gif",
-    "hasVideo": true
+    "hasVideo": true,
+    "hasStore": false,
+    "storeUrl": ""
+  },
+  {
+    "genre": "Runner Game",
+    "title": "Space Gun Run",
+    "repoLink": "https://github.com/berkeparildar/Gun-Run",
+    "imageUrl": "assets/pictures/gunrun/GunRun.png",
+    "description": "Space Gun Run is a thrilling runner-style game where players control a moving gun on a dynamic platform. The objective is to shoot at different obstacles and collect ammo to advance through the levels. The game features a unique ammo system and rewards players with perks for their shooting skills. In addition, players can collect money to purchase permanent perks and upgrade their guns.",
+    "titleOne": "Features",
+    "partOne": "Players control a gun that moves horizontally on a moving platform._Two types of obstacles exist on the platform: Ammo and Walls._Ammo: Shoot at ammo to collect bullets, and when the chamber is full, move to the ammo wall to unload the collected ammo._Ammo Wall: A wall that displays collected ammo and rewards players with EXP points when fully loaded._Walls: Objects on the platform that reward players with random perks: FireRate, FireRange, and GunEXP._Perk Points: Accumulate perk points by shooting at walls. These points increase the effect of the perk received._End of Platform: Reach the end of the platform to encounter rows of barrels with money on top. Shoot and collect as much money as possible._Gun Crash: If the gun collides with a high health barrel row, proceed to the next level.",
+    "titleTwo": "How to Play",
+    "partTwo": "Control the moving gun by swerving horizontally on the platform to avoid obstacles and collect ammo._Shoot at Ammo to increase the bullets in the chamber. Once the chamber is full, proceed to the Ammo Wall to get your EXP points._Shoot at Walls to accumulate perk points. The more you shoot, the stronger the perks you receive._Reach the end of the platform to collect money from barrels. Shoot and collect as much money as possible._Use the collected money at the end of each level to purchase permanent perks, upgrade guns, and improve gameplay abilities._Watch rewarded ads to earn extra ingame currency for faster progress._The game has an endless gameplay loop with increasing platform length and random obstacle generation.",
+    "videoId": "https://www.youtube.com/embed/EbHNhdFMDQ8",
+    "imageOnePath": "assets/pictures/gunrun/description.gif",
+    "imageTwoPath": "assets/pictures/gunrun/play.gif",
+    "imageThreePath": "assets/pictures/gunrun/perks.gif",
+    "hasVideo": true,
+    "hasStore": true,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.spacegunrun"
   },
   {
     "genre": "Puzzle Game",
@@ -29,23 +49,9 @@
     "imageOnePath": "assets/pictures/threematch/gifTwo.gif",
     "imageTwoPath": "assets/pictures/threematch/gifOne.gif",
     "imageThreePath": "assets/pictures/threematch/gifThree.gif",
-    "hasVideo": true
-  },
-  {
-    "genre": "Runner Game",
-    "title": "Factory Run",
-    "repoLink": "https://github.com/berkeparildar/Factory-Run",
-    "imageUrl": "assets/pictures/factoryrun/factoryrun.png",
-    "description": "Factory Run is an exhilarating endless runner game that takes heavy inspiration from popular games like Subway Surfers. In Factory Run, players control a character who continuously runs forward through an industrial setting. The objective is to navigate between three columns or roads, avoiding obstacles and collecting coins to achieve the highest score possible. The game features dynamically changing platforms, with some segments randomly elevated, and randomly spawned obstacles, challenging players platform skills. Gaps can also appear on elevated platforms, requiring precise jumps to avoid falling.",
-    "titleOne": "Features",
-    "partOne": "Endless runner gameplay with non-stop action and dynamic platform changes._Three lanes to navigate, providing strategic choices to avoid obstacles._Elevation mechanic with randomly generated high platforms and gaps, adding variety and challenge._Obstacles such as boxes to jump over and small tunnels to slide under._Coin collection system to boost your score and unlock new characters._Intuitive swipe controls, making the game accessible and easy to play._Beautiful appearance with Unity Post Processing and an industrial theme, immersing players in the factory setting._Aim for the highest score, compete with friends, and unlock all characters to master Factory Run._Strive for the highest score and compete with yourself to beat your previous records._Keep track of your score, high score, and total money.",
-    "titleTwo": "How to Play",
-    "partTwo": "The character runs forward automatically; your job is to navigate and survive._Swipe left or right to switch between three columns._Swipe up to jump over obstacles like boxes on the ground level._Swipe down to slide under obstacles like small tunnels on the ground level._Keep an eye on the platforms ahead; some parts can be elevated, requiring a jump to continue._Be cautious of gaps that might appear on the elevated platforms; time your jumps carefully._Collect coins scattered throughout the course to increase your score._Use collected coins to unlock different characters.",
-    "videoId": "https://www.youtube.com/embed/oyamSiGUssk",
-    "imageOnePath": "assets/pictures/factoryrun/gameplay.gif",
-    "imageTwoPath": "assets/pictures/factoryrun/shop.gif",
-    "imageThreePath": "assets/pictures/factoryrun/death.gif",
-    "hasVideo": true
+    "hasVideo": true,
+    "hasStore": true,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.gemmatch"
   },
   {
     "genre": "Driving Game",
@@ -61,23 +67,45 @@
     "imageOnePath": "assets/pictures/freewaydrive/play.gif",
     "imageTwoPath": "assets/pictures/freewaydrive/shop.gif",
     "imageThreePath": "assets/pictures/freewaydrive/crash.gif",
-    "hasVideo": true
+    "hasVideo": true,
+    "hasStore": true,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.freewaydrive"
   },
   {
     "genre": "Runner Game",
-    "title": "Gun Run",
-    "repoLink": "https://github.com/berkeparildar/Gun-Run",
-    "imageUrl": "assets/pictures/gunrun/GunRun.png",
-    "description": "Gun Run is a thrilling runner-style game where players control a moving gun on a dynamic platform. The objective is to shoot at different obstacles and collect ammo to advance through the levels. The game features a unique ammo system and rewards players with perks for their shooting skills. In addition, players can collect money to purchase permanent perks and upgrade their guns.",
+    "title": "Factory Run",
+    "repoLink": "https://github.com/berkeparildar/Factory-Run",
+    "imageUrl": "assets/pictures/factoryrun/factoryrun.png",
+    "description": "Factory Run is an exhilarating endless runner game that takes heavy inspiration from popular games like Subway Surfers. In Factory Run, players control a character who continuously runs forward through an industrial setting. The objective is to navigate between three columns or roads, avoiding obstacles and collecting coins to achieve the highest score possible. The game features dynamically changing platforms, with some segments randomly elevated, and randomly spawned obstacles, challenging players platform skills. Gaps can also appear on elevated platforms, requiring precise jumps to avoid falling.",
     "titleOne": "Features",
-    "partOne": "Players control a gun that moves horizontally on a moving platform._Two types of obstacles exist on the platform: Ammo and Walls._Ammo: Shoot at ammo to collect bullets, and when the chamber is full, move to the ammo wall to unload the collected ammo._Ammo Wall: A wall that displays collected ammo and rewards players with EXP points when fully loaded._Walls: Objects on the platform that reward players with random perks: FireRate, FireRange, and GunEXP._Perk Points: Accumulate perk points by shooting at walls. These points increase the effect of the perk received._End of Platform: Reach the end of the platform to encounter rows of barrels with money on top. Shoot and collect as much money as possible._Gun Crash: If the gun collides with a high health barrel row, proceed to the next level.",
+    "partOne": "Endless runner gameplay with non-stop action and dynamic platform changes._Three lanes to navigate, providing strategic choices to avoid obstacles._Elevation mechanic with randomly generated high platforms and gaps, adding variety and challenge._Obstacles such as boxes to jump over and small tunnels to slide under._Coin collection system to boost your score and unlock new characters._Intuitive swipe controls, making the game accessible and easy to play._Beautiful appearance with Unity Post Processing and an industrial theme, immersing players in the factory setting._Aim for the highest score, compete with friends, and unlock all characters to master Factory Run._Strive for the highest score and compete with yourself to beat your previous records._Keep track of your score, high score, and total money.",
     "titleTwo": "How to Play",
-    "partTwo": "Control the moving gun by swerving horizontally on the platform to avoid obstacles and collect ammo._Shoot at Ammo to increase the bullets in the chamber. Once the chamber is full, proceed to the Ammo Wall to get your EXP points._Shoot at Walls to accumulate perk points. The more you shoot, the stronger the perks you receive._Reach the end of the platform to collect money from barrels. Shoot and collect as much money as possible._Use the collected money at the end of each level to purchase permanent perks, upgrade guns, and improve gameplay abilities._Watch rewarded ads to earn extra ingame currency for faster progress._The game has an endless gameplay loop with increasing platform length and random obstacle generation.",
-    "videoId": "https://www.youtube.com/embed/EbHNhdFMDQ8",
-    "imageOnePath": "assets/pictures/gunrun/description.gif",
-    "imageTwoPath": "assets/pictures/gunrun/play.gif",
-    "imageThreePath": "assets/pictures/gunrun/perks.gif",
-    "hasVideo": true
+    "partTwo": "The character runs forward automatically; your job is to navigate and survive._Swipe left or right to switch between three columns._Swipe up to jump over obstacles like boxes on the ground level._Swipe down to slide under obstacles like small tunnels on the ground level._Keep an eye on the platforms ahead; some parts can be elevated, requiring a jump to continue._Be cautious of gaps that might appear on the elevated platforms; time your jumps carefully._Collect coins scattered throughout the course to increase your score._Use collected coins to unlock different characters.",
+    "videoId": "https://www.youtube.com/embed/oyamSiGUssk",
+    "imageOnePath": "assets/pictures/factoryrun/gameplay.gif",
+    "imageTwoPath": "assets/pictures/factoryrun/shop.gif",
+    "imageThreePath": "assets/pictures/factoryrun/death.gif",
+    "hasVideo": true,
+    "hasStore": true,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.factoryrun"
+  },
+  {
+    "genre": "Arcade Game",
+    "title": "Space Snake",
+    "repoLink": "https://github.com/berkeparildar/Space-Snake",
+    "imageUrl": "assets/pictures/spacesnake/spacesnake.png",
+    "description": "Space Snake is a classic snake game with a cosmic twist. In this thrilling game, players control a small snake in the center of the screen, maneuvering it through a space filled with challenges and opportunities. Collect energy sources to grow your snake and gather coins to earn rewards. The cosmic environment is full of perilous obstacles, including hostile spaceships and menacing asteroids.",
+    "titleOne": "Features",
+    "partOne": "Timeless fun of the classic snake game with a fresh cosmic theme._Earn points for every second you survive and consuming energy sources._There are two different obstacles. Enemy spaceships that can shoot lasers and asteroids that are targeted towards you. These two can also destroy each other, and asteroids can change each other's direction if bumped into one another._Shield power-ups will spawn after reaching a certain score, which will protect the snake for a limited amount of time._Personalize your snake with a choice of six vibrant colors._Keep track of your best scores and strive to beat them.",
+    "titleTwo": "How to Play",
+    "partTwo": "Use touch controls to direct your snake's movement._Consume energy sources to extend your snake's length._Gather coins to earn and unlock customization options._Watch out for hostile spaceships firing lasers and hazardous asteroids._Shield power-up will protect you from the dangers of space._Aim to survive as long as possible.",
+    "videoId": "https://www.youtube.com/embed/AqxnFYLENnA",
+    "imageOnePath": "assets/pictures/spacesnake/1.gif",
+    "imageTwoPath": "assets/pictures/spacesnake/2.gif",
+    "imageThreePath": "assets/pictures/spacesnake/3.gif",
+    "hasVideo": true,
+    "hasStore": true,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.spacesnake"
   },
   {
     "genre": "RPG Game",
@@ -93,7 +121,9 @@
     "imageOnePath": "assets/pictures/druidstale/human.png",
     "imageTwoPath": "assets/pictures/druidstale/enemy.png",
     "imageThreePath": "assets/pictures/druidstale/tiger.png",
-    "hasVideo": true
+    "hasVideo": true,
+    "hasStore": false,
+    "storeUrl": ""
   },
   {
     "genre": "Golf Game",
@@ -109,7 +139,9 @@
     "imageOnePath": "assets/pictures/putttime/obstacle2.gif",
     "imageTwoPath": "assets/pictures/putttime/jump.gif",
     "imageThreePath": "assets/pictures/putttime/aim.gif",
-    "hasVideo": false
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": ""
   },
   {
     "genre": "Blockchain",
@@ -125,7 +157,9 @@
     "imageOnePath": "assets/pictures/dsis/home_screen.png",
     "imageTwoPath": "assets/pictures/dsis/login_screen.png",
     "imageThreePath": "assets/pictures/dsis/grades.png",
-    "hasVideo": false
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": ""
   },
   {
     "genre": "Blockchain",
@@ -141,7 +175,9 @@
     "imageOnePath": "assets/pictures/helpchain/1.png",
     "imageTwoPath": "assets/pictures/helpchain/2.png",
     "imageThreePath": "assets/pictures/helpchain/3.png",
-    "hasVideo": false
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": ""
   },
   {
     "genre": "Shooter Game",
@@ -157,7 +193,9 @@
     "imageOnePath": "assets/pictures/zomcube/ge.png",
     "imageTwoPath": "assets/pictures/zomcube/chl.png",
     "imageThreePath": "assets/pictures/zomcube/boss.png",
-    "hasVideo": false
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": ""
   },
   {
     "genre": "Mobile Application",
@@ -173,7 +211,9 @@
     "imageOnePath": "assets/pictures/cookbook/1.png",
     "imageTwoPath": "assets/pictures/cookbook/2.png",
     "imageThreePath": "assets/pictures/cookbook/3.png",
-    "hasVideo": false
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": ""
   },
   {
     "genre": "Arcade Game",
@@ -189,7 +229,9 @@
     "imageOnePath": "assets/pictures/DINO/cactus2.png",
     "imageTwoPath": "assets/pictures/DINO/dino.gif",
     "imageThreePath": "assets/pictures/DINO/dino4.png",
-    "hasVideo": false
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": ""
   },
   {
     "genre": "2D Platformer Game",
@@ -205,7 +247,9 @@
     "imageOnePath": "assets/pictures/dungeonescape/main.png",
     "imageTwoPath": "assets/pictures/dungeonescape/shop.png",
     "imageThreePath": "assets/pictures/dungeonescape/spider.png",
-    "hasVideo": false
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": ""
   },
   {
     "genre": "Arcade Game",
@@ -221,6 +265,8 @@
     "imageOnePath": "assets/pictures/spaceshooter/shield.png",
     "imageTwoPath": "assets/pictures/spaceshooter/gameplay.gif",
     "imageThreePath": "assets/pictures/spaceshooter/main.png",
-    "hasVideo": false
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": ""
   }
 ]

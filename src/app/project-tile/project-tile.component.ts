@@ -23,6 +23,8 @@ export class ProjectTileComponent {
   @Input() imageTwoPath!: string;
   @Input() imageThreePath!: string;
   @Input() hasVideo!: boolean;
+  @Input() hasStore!: boolean;
+  @Input() storeUrl!: string;
 
   constructor(private dialog: MatDialog) { }
 
@@ -40,7 +42,9 @@ export class ProjectTileComponent {
       imageOnePath: this.imageOnePath,
       imageTwoPath: this.imageTwoPath,
       imageThreePath: this.imageThreePath,
-      hasVideo: this.hasVideo
+      hasVideo: this.hasVideo,
+      hasStore: this.hasStore,
+      storeUrl: this.storeUrl
     };
     dialogConfig.panelClass = 'custom-container';
     dialogConfig.backdropClass = 'custom-modal';
