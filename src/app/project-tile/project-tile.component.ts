@@ -25,6 +25,8 @@ export class ProjectTileComponent {
   @Input() hasVideo!: boolean;
   @Input() hasStore!: boolean;
   @Input() storeUrl!: string;
+  @Input() tagCount!: number;
+  @Input() tags!: string[];
 
   constructor(private dialog: MatDialog) { }
 
@@ -49,5 +51,12 @@ export class ProjectTileComponent {
     dialogConfig.panelClass = 'custom-container';
     dialogConfig.backdropClass = 'custom-modal';
     const dialogRef = this.dialog.open(ProjectViewComponent, dialogConfig);
+  }
+
+  Tag(tag: string): string {
+    if (tag == "C_"){
+      return  "C#";
+    }
+    return tag;
   }
 }

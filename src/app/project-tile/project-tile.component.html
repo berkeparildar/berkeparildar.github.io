@@ -2,4 +2,9 @@
   <div class="genre">{{ genre }}</div>
   <div class="title">{{ title }}</div>
   <img [src]="imageUrl" alt="Game Image" />
+  <div class="tags">
+    <span *ngFor="let tag of tags" [ngClass]="'tag-' + tag" class="tag">
+      {{Tag(tag)}}
+    </span>
+  </div>
 </div>

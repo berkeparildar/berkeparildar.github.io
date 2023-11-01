@@ -15,7 +15,9 @@
     "imageThreePath": "assets/pictures/fallparkour/bf.gif",
     "hasVideo": true,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 3,
+    "tags": ["Unity", "C_", "Photon"]
   },
   {
     "genre": "Runner Game",
@@ -33,7 +35,9 @@
     "imageThreePath": "assets/pictures/gunrun/perks.gif",
     "hasVideo": true,
     "hasStore": true,
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.spacegunrun"
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.spacegunrun",
+    "tagCount": 3,
+    "tags": ["Unity", "C_", "Mobile Game"]
   },
   {
     "genre": "Puzzle Game",
@@ -51,7 +55,9 @@
     "imageThreePath": "assets/pictures/threematch/gifThree.gif",
     "hasVideo": true,
     "hasStore": true,
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.gemmatch"
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.gemmatch",
+    "tagCount": 3,
+    "tags": ["Unity", "C_", "Mobile Game"]
   },
   {
     "genre": "Driving Game",
@@ -69,7 +75,9 @@
     "imageThreePath": "assets/pictures/freewaydrive/crash.gif",
     "hasVideo": true,
     "hasStore": true,
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.freewaydrive"
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.freewaydrive",
+    "tagCount": 3,
+    "tags": ["Unity", "C_", "Mobile Game"]
   },
   {
     "genre": "Runner Game",
@@ -87,7 +95,9 @@
     "imageThreePath": "assets/pictures/factoryrun/death.gif",
     "hasVideo": true,
     "hasStore": true,
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.factoryrun"
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.factoryrun",
+    "tagCount": 3,
+    "tags": ["Unity", "C_", "Mobile Game"]
   },
   {
     "genre": "Arcade Game",
@@ -105,7 +115,9 @@
     "imageThreePath": "assets/pictures/spacesnake/3.gif",
     "hasVideo": true,
     "hasStore": true,
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.spacesnake"
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.spacesnake",
+    "tagCount": 3,
+    "tags": ["Unity", "C_", "Mobile Game"]
   },
   {
     "genre": "RPG Game",
@@ -117,13 +129,15 @@
     "partOne": "Shape shift into a tiger and a bear, each with distinct abilities:_Tiger: Agile and fast, perfect for traversing tricky platforms and executing swift attacks._Bear: Strong and sturdy, capable of dealing heavy damage and withstanding powerful blows._Beautifully crafted floating forest environment._Challenging enemies and boss battles that require you to master your animal forms and exploit their unique strengths._Exciting platforming challenges, including intricate jumps and precise timing",
     "titleTwo": "How to Play",
     "partTwo": "Movement: W, A, S, D_Jump: Spacebar_Shape-shift: Q and E_Special Abilies: 1 and 2_Human Special Ability One: Wrath. Damaging AoE spell that deals 30 damage, costs 70 mana and has cooldown of 7 seconds_Human Special Ability Two: Regeneration. Healing over time spell that heals 50 damage, costs 50 mana and has cooldown of 9 seconds_Tiger Special Ability One: Shred. Damaging over time spell that deals 15 damage, costs 20 energy and has cooldown of 2 seconds_Tiger Special Ability Two: Ferocious Bite. Damaging spell that deals 30 damage, costs 30 energy and has cooldown of 4 seconds_Bear Special Ability One: Swipe. Damaging spell that deals 15 damage, costs 20 rage and has cooldown of 2 seconds_Bear Special Ability Two: Growl. Crowd Control spell that fears enemies for 5 seconds, costs 100 rage and has cooldown of 10 seconds",
-    "videoId": "https://www.youtube.com/embed/pJBIi-IJEdI",
+    "videoId": "https://www.youtube.com/embed/spLtwbp_a-k",
     "imageOnePath": "assets/pictures/druidstale/human.png",
     "imageTwoPath": "assets/pictures/druidstale/enemy.png",
     "imageThreePath": "assets/pictures/druidstale/tiger.png",
     "hasVideo": true,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 2,
+    "tags": ["Unity", "C_"]
   },
   {
     "genre": "Golf Game",
@@ -141,7 +155,9 @@
     "imageThreePath": "assets/pictures/putttime/aim.gif",
     "hasVideo": false,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 2,
+    "tags": ["Unity", "C_"]
   },
   {
     "genre": "Blockchain",
@@ -159,7 +175,9 @@
     "imageThreePath": "assets/pictures/dsis/grades.png",
     "hasVideo": false,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 4,
+    "tags": ["Solidity", "Flutter", "Java", "NodeJS"]
   },
   {
     "genre": "Blockchain",
@@ -177,7 +195,9 @@
     "imageThreePath": "assets/pictures/helpchain/3.png",
     "hasVideo": false,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 4,
+    "tags": ["Solidity", "Flutter", "C_", "NodeJS"]
   },
   {
     "genre": "Shooter Game",
@@ -195,7 +215,9 @@
     "imageThreePath": "assets/pictures/zomcube/boss.png",
     "hasVideo": false,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 2,
+    "tags": ["Unity", "C_"]
   },
   {
     "genre": "Mobile Application",
@@ -213,7 +235,9 @@
     "imageThreePath": "assets/pictures/cookbook/3.png",
     "hasVideo": false,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 1,
+    "tags": ["Flutter"]
   },
   {
     "genre": "Arcade Game",
@@ -231,7 +255,29 @@
     "imageThreePath": "assets/pictures/DINO/dino4.png",
     "hasVideo": false,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 1,
+    "tags": ["C"]
+  },
+  {
+    "genre": "Arcade Game",
+    "title": "Flappy Bird",
+    "repoLink": "https://github.com/berkeparildar/Flappy-Bird",
+    "imageUrl": "assets/pictures/fb/fb.png",
+    "description": "This is the Flappy Bird game I developed using the C++ language. The player controls a flying bird, and the objective is to survive for as long as possible by navigating between the pipes that appear.",
+    "titleOne": "Features",
+    "partOne": "Endless runner gameplay, offering a challenging and addictive experience._Light-hearted and fun gameplay suitable for quick entertainment during short breaks or downtime.",
+    "titleTwo": "How to Play",
+    "partTwo": "To start the game, press the \"Spacebar\"._The bird will flap for the first time and it is in your control from that point._To make the bird flap, press the \"Spacebar\" key._The player must keep jumping to float and not fall down.__The game continues until the player collides with a pipe, at which point the game ends._The player's score is displayed on the game over screen, indicating how many pipes the bird passes before colliding.",
+    "videoId": "",
+    "imageOnePath": "assets/pictures/fb/gameplay.gif",
+    "imageTwoPath": "assets/pictures/fb/gameover.png",
+    "imageThreePath": "assets/pictures/fb/idle.png",
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": "",
+    "tagCount": 1,
+    "tags": ["C"]
   },
   {
     "genre": "2D Platformer Game",
@@ -249,7 +295,9 @@
     "imageThreePath": "assets/pictures/dungeonescape/spider.png",
     "hasVideo": false,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 2,
+    "tags": ["Unity", "C_"]
   },
   {
     "genre": "Arcade Game",
@@ -267,6 +315,8 @@
     "imageThreePath": "assets/pictures/spaceshooter/main.png",
     "hasVideo": false,
     "hasStore": false,
-    "storeUrl": ""
+    "storeUrl": "",
+    "tagCount": 2,
+    "tags": ["Unity", "C_"]
   }
 ]

@@ -20,6 +20,8 @@ interface Project {
   hasVideo: boolean;
   hasStore: boolean;
   storeUrl: string;
+  tagCount: number;
+  tags: string[];
 }
 
 @Component({
