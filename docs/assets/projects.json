@@ -1,5 +1,25 @@
 [
   {
+    "genre": "Merge Game",
+    "title": "I Want Sun",
+    "repoLink": "https://github.com/berkeparildar/I-Want-Sun",
+    "imageUrl": "assets/pictures/sun/logo.png",
+    "description": "I Want Sun is an addicting 2D merge mobile game heavily inspired by the popular game I Want Watermelon. In this game, player merges different variety of planets in our Solar System, and aims to create a Sun.",
+    "titleOne": "Features",
+    "partOne": "Addictive and strategic gameplay, challenging players to create larger planets._Keep an eye on your score and the number of suns acquired._Control FX and music volume to tailor the gaming experience.",
+    "titleTwo": "How to Play",
+    "partTwo": "Tap to drop planets from the top of the screen._Planets of the same type merge upon contact, forming a bigger planet._Merge planets strategically to maximize the score._Avoid stacking planets too high and hitting the limit._Achieve the ultimate goal: create a sun by merging planets efficiently.",
+    "videoId": "https://www.youtube.com/embed/2yEiP8obIEc",
+    "imageOnePath": "assets/pictures/sun/Untitled.gif",
+    "imageTwoPath": "assets/pictures/sun/Untitled2.gif",
+    "imageThreePath": "assets/pictures/sun/Untitled3.gif",
+    "hasVideo": true,
+    "hasStore": true,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.IWantSun",
+    "tagCount": 3,
+    "tags": ["Unity", "C_", "Mobile Game"]
+  },
+  {
     "genre": "Multiplayer Game",
     "title": "Fall Parkour",
     "repoLink": "https://github.com/berkeparildar/Fall-Parkour",
