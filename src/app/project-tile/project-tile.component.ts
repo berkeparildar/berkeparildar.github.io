@@ -52,7 +52,6 @@ export class ProjectTileComponent {
     dialogConfig.backdropClass = 'custom-modal';
     const dialogRef = this.dialog.open(ProjectViewComponent, dialogConfig);
   }
-
   Tag(tag: string): string {
     if (tag == "C_"){
       return  "C#";

@@ -276,8 +276,8 @@
     "hasVideo": false,
     "hasStore": false,
     "storeUrl": "",
-    "tagCount": 1,
-    "tags": ["C"]
+    "tagCount": 2,
+    "tags": ["C", "SDL"]
   },
   {
     "genre": "Arcade Game",
@@ -296,8 +296,8 @@
     "hasVideo": false,
     "hasStore": false,
     "storeUrl": "",
-    "tagCount": 1,
-    "tags": ["C"]
+    "tagCount": 2,
+    "tags": ["C", "SDL"]
   },
   {
     "genre": "2D Platformer Game",
