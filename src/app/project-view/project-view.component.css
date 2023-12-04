@@ -19,19 +19,24 @@
   height: 100%;
   color: #fff;
   padding: 20px;
+  scrollbar-width: thin;
   overflow: auto;
 }
 .modal-content::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
+  border-radius: 16px;
 }
 .modal-content::-webkit-scrollbar-track {
-  background: transparent;
+  background: rgba(243, 139, 168, 0.2);
+  border-radius: 16px;
 }
 .modal-content::-webkit-scrollbar-thumb {
-  background: transparent;
+  background: rgba(243, 139, 168, 0.8);
+  border-radius: 16px;
 }
 .modal-content:hover::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(243, 139, 168, 0.8);
+  border-radius: 16px;
 }
 .project-title {
   text-align: center;
@@ -122,12 +127,12 @@
   margin: 5px 0;
 }
 .icon {
-  width: 24em;
-  height: 12em;
-}
-.noStore {
-  width: 8em;
-  height: 4em;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  align-self: center;
 }
 .title {
   color: #89dceb;
@@ -139,4 +144,3 @@
   vertical-align: middle;
   margin-left: 0.5em;
 }
-@media (max-width: 480px) {}

@@ -1,11 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ProjectViewComponent } from './project-view.component';
-
 describe('ProjectViewComponent', () => {
   let component: ProjectViewComponent;
   let fixture: ComponentFixture<ProjectViewComponent>;
-
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [ProjectViewComponent]
@@ -14,7 +11,6 @@ describe('ProjectViewComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
   it('should create', () => {
     expect(component).toBeTruthy();
   });

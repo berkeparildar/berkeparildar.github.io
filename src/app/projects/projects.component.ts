@@ -1,8 +1,5 @@
-// projects.component.ts
 import {Component, OnInit} from '@angular/core';
-import * as projectData from 'src/assets/projects.json';
 import { HttpClient } from '@angular/common/http';
-
 interface Project {
   genre: string;
   title: string;
@@ -23,7 +20,6 @@ interface Project {
   tagCount: number;
   tags: string[];
 }
-
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
@@ -31,10 +27,8 @@ interface Project {
 })
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [];
-
   constructor(private http: HttpClient) {
   }
-
   ngOnInit(): void {
     this.http.get<Project[]>('/assets/projects.json').subscribe(data => {
       this.projects = data;

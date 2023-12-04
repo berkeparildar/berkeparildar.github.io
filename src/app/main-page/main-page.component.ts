@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import {CvViewComponent} from "../cv-view/cv-view.component";
-
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
@@ -17,7 +16,6 @@ export class MainPageComponent {
       panelClass: 'custom-container',
       backdropClass: 'custom-modal'
     };
-
     this.dialog.open(CvViewComponent, dialogConfig);
   }
 }

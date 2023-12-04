@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
-
 @Component({
   selector: 'app-particle-background',
   template: '<canvas #canvas></canvas>',
@@ -19,7 +18,6 @@ export class ParticleBackgroundComponent implements OnInit {
     this.initializeParticles();
     this.animate();
   }
-
   private initializeParticles(): void {
     for (let i = 0; i < this.numParticles; i++) {
       const x = Math.random() * this.canvasRef.nativeElement.width;
@@ -27,10 +25,8 @@ export class ParticleBackgroundComponent implements OnInit {
       this.particles.push(new Particle(x, y, (Math.random() - 0.5) * 2, (Math.random() - 0.5) * 2));
     }
   }
-
   private animate(): void {
     this.ctx.clearRect(0, 0, this.canvasRef.nativeElement.width, this.canvasRef.nativeElement.height);
-
     this.particles.forEach(particle => {
       particle.move();
       this.drawParticle(particle);
@@ -48,7 +44,6 @@ export class ParticleBackgroundComponent implements OnInit {
 
     requestAnimationFrame(() => this.animate());
   }
-
   private drawParticle(particle: Particle): void {
     this.ctx.beginPath();
     this.ctx.arc(particle.x, particle.y, 4, 0, 360);
@@ -56,7 +51,6 @@ export class ParticleBackgroundComponent implements OnInit {
     this.ctx.fill();
     this.ctx.closePath();
   }
-
   private drawConnection(x1: number, y1: number, x2: number, y2: number, distance: number): void {
     this.ctx.beginPath();
     this.ctx.moveTo(x1, y1);
@@ -72,11 +66,8 @@ export class ParticleBackgroundComponent implements OnInit {
     this.canvasRef.nativeElement.height = window.innerHeight;
   }
 }
-
-
 class Particle {
   constructor(public x: number, public y: number, public xMove: number, public yMove: number) {}
-
   move(): void {
     this.x += this.xMove;
     this.y += this.yMove;
@@ -93,7 +84,6 @@ class Particle {
       this.yMove = -1 * this.yMove;
     }
   }
-
   distanceTo(otherParticle: Particle): number {
     const dx = this.x - otherParticle.x;
     const dy = this.y - otherParticle.y;
