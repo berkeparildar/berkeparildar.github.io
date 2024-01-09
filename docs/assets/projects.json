@@ -1,5 +1,5 @@
 [
-{
+  {
     "genre": "Arcade Game",
     "title": "Road Cross",
     "repoLink": "https://github.com/berkeparildar/Road-Cross",
@@ -17,30 +17,14 @@
     "hasStore": true,
     "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.RoadCross",
     "tagCount": 3,
-    "tags": ["Unity", "C_", "Mobile Game"]
+    "tags": [
+      "Unity",
+      "C_",
+      "Mobile Game"
+    ]
   },
   {
-    "genre": "Merge Game",
-    "title": "I Want Sun",
-    "repoLink": "https://github.com/berkeparildar/I-Want-Sun",
-    "imageUrl": "assets/pictures/sun/logo.png",
-    "description": "I Want Sun is an addicting 2D merge mobile game heavily inspired by the popular game I Want Watermelon. In this game, player merges different variety of planets in our Solar System, and aims to create a Sun.",
-    "titleOne": "Features",
-    "partOne": "Addictive and strategic gameplay, challenging players to create larger planets._Keep an eye on your score and the number of suns acquired._Control FX and music volume to tailor the gaming experience.",
-    "titleTwo": "How to Play",
-    "partTwo": "Tap to drop planets from the top of the screen._Planets of the same type merge upon contact, forming a bigger planet._Merge planets strategically to maximize the score._Avoid stacking planets too high and hitting the limit._Achieve the ultimate goal: create a sun by merging planets efficiently.",
-    "videoId": "https://www.youtube.com/embed/2yEiP8obIEc",
-    "imageOnePath": "assets/pictures/sun/Untitled.gif",
-    "imageTwoPath": "assets/pictures/sun/Untitled2.gif",
-    "imageThreePath": "assets/pictures/sun/Untitled3.gif",
-    "hasVideo": true,
-    "hasStore": true,
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.IWantSun",
-    "tagCount": 3,
-    "tags": ["Unity", "C_", "Mobile Game"]
-  },
-  {
-    "genre": "Multiplayer Game",
+    "genre": "Multiplayer Parkour Game",
     "title": "Fall Parkour",
     "repoLink": "https://github.com/berkeparildar/Fall-Parkour",
     "imageUrl": "assets/pictures/fallparkour/logo.png",
@@ -57,7 +41,12 @@
     "hasStore": false,
     "storeUrl": "",
     "tagCount": 4,
-    "tags": ["Unity", "C_", "Photon", "Multiplayer"]
+    "tags": [
+      "Unity",
+      "C_",
+      "Photon",
+      "Multiplayer"
+    ]
   },
   {
     "genre": "Runner Game",
@@ -77,27 +66,11 @@
     "hasStore": true,
     "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.spacegunrun",
     "tagCount": 3,
-    "tags": ["Unity", "C_", "Mobile Game"]
-  },
-  {
-    "genre": "Puzzle Game",
-    "title": "Gem Match!",
-    "repoLink": "https://github.com/berkeparildar/Gem-Match",
-    "imageUrl": "assets/pictures/threematch/gemmatch.png",
-    "description": "Gem Match! is an addictive puzzle game where players aim to match at least three gems of the same type vertically or horizontally. The game features a grid of colorful gems with six different varieties. Your task is to swap adjacent gems by touching and dragging them to create matching sets. Gems can be swapped to the right, left, down, or upwards, allowing you to strategize and create matches.",
-    "titleOne": "Features",
-    "partOne": "Addictive puzzle gameplay, perfect for quick rounds of brain-teasing fun._A colorful grid of gems with six different types for variety._Strategize to create big matches and maximize your score._Time-based gameplay adds a sense of urgency and excitement._Score points for each gem matched and earn additional time._Game over screen displays your score and the high score record._Continue playing with a fresh 10 seconds by watching a rewarded ad._Similar to popular match-three games like Candy Crush, offering familiar and enjoyable gameplay.",
-    "titleTwo": "How to Play",
-    "partTwo": "Touch and drag a gem to swap it with an adjacent gem in the desired direction._Match at least three gems of the same type vertically or horizontally to destroy them._After gems are destroyed, the gems above them in the grid will fall into their place._Earn 100 points for each gem destroyed in a match._New random gems will fill in the empty spots._You have a 10-second time limit from the start of the game._Each gem in a match awards you with additional seconds._If you run out of time, the game ends.",
-    "videoId": "https://www.youtube.com/embed/jnGv_1mKeRc",
-    "imageOnePath": "assets/pictures/threematch/gifTwo.gif",
-    "imageTwoPath": "assets/pictures/threematch/gifOne.gif",
-    "imageThreePath": "assets/pictures/threematch/gifThree.gif",
-    "hasVideo": true,
-    "hasStore": true,
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.gemmatch",
-    "tagCount": 3,
-    "tags": ["Unity", "C_", "Mobile Game"]
+    "tags": [
+      "Unity",
+      "C_",
+      "Mobile Game"
+    ]
   },
   {
     "genre": "Driving Game",
@@ -117,7 +90,85 @@
     "hasStore": true,
     "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.freewaydrive",
     "tagCount": 3,
-    "tags": ["Unity", "C_", "Mobile Game"]
+    "tags": [
+      "Unity",
+      "C_",
+      "Mobile Game"
+    ]
+  },
+  {
+    "genre": "Multiplayer Golf Game",
+    "title": "Putt Time",
+    "repoLink": "https://github.com/berkeparildar/Putt-Time",
+    "imageUrl": "assets/pictures/putttime/putttime.png",
+    "description": "Putt Time is a thrilling multiplayer desktop golf game designed for up to four players. Players can create or join rooms and engage in golf matches across three diverse maps: Classicton, Jumpington, and Spinnington.",
+    "titleOne": "Features",
+    "partOne": "Play golf across six holes in each map: Classicton, Jumpington, and Spinnington._Classicton: Enjoy a classic golf experience._Spinnington: Navigate spinning obstacles on all six courses to reach the hole._Jumpington: Utilize jumping pads to make your ball soar into the air and reach the hole strategically._Engaging multiplayer golf experience with up to four players._Online multiplayer functionality using Photon Unity Network._Ball control with intuitive clicking and dragging mechanics._Dynamic direction identifiers for precise shot planning._Camera system for adjusting the view with mouse movements and zooming._Checkpoint system for players, relocating them if the ball goes out of bounds.",
+    "titleTwo": "How to Play",
+    "partTwo": "Choose a name that will act as your user name in rooms._Join or create a room with up to four players._Room owners get a random room ID, shareable for friends to join the lobby._The lobby displays the names of all players, allowing easy tracking of participants._Control the ball by clicking and dragging, adjusting the hit's direction and power._Direction indicators show the current ball trajectory during dragging._The more powerful the hit, indicators will change color and rotate faster and wider._Players can adjust camera view horizontally and vertically by mouse movement, or zoom in and out using their mouse wheel._Keep track of your and other players' par, strokes, and hole progression on the scorecard._Once all players complete a course, move on to the next one._After finishing all six courses in a map, the winner is announced by name and color.",
+    "videoId": "https://www.youtube.com/embed/SRp2cSUUpRo",
+    "imageOnePath": "assets/pictures/putttime/2.gif",
+    "imageTwoPath": "assets/pictures/putttime/1.gif",
+    "imageThreePath": "assets/pictures/putttime/3.gif",
+    "hasVideo": true,
+    "hasStore": false,
+    "storeUrl": "",
+    "tagCount": 4,
+    "tags": [
+      "Unity",
+      "C_",
+      "Photon",
+      "Multiplayer"
+    ]
+  },
+  
+  {
+    "genre": "Puzzle Game",
+    "title": "Gem Match!",
+    "repoLink": "https://github.com/berkeparildar/Gem-Match",
+    "imageUrl": "assets/pictures/threematch/gemmatch.png",
+    "description": "Gem Match! is an addictive puzzle game where players aim to match at least three gems of the same type vertically or horizontally. The game features a grid of colorful gems with six different varieties. Your task is to swap adjacent gems by touching and dragging them to create matching sets. Gems can be swapped to the right, left, down, or upwards, allowing you to strategize and create matches.",
+    "titleOne": "Features",
+    "partOne": "Addictive puzzle gameplay, perfect for quick rounds of brain-teasing fun._A colorful grid of gems with six different types for variety._Strategize to create big matches and maximize your score._Time-based gameplay adds a sense of urgency and excitement._Score points for each gem matched and earn additional time._Game over screen displays your score and the high score record._Continue playing with a fresh 10 seconds by watching a rewarded ad._Similar to popular match-three games like Candy Crush, offering familiar and enjoyable gameplay.",
+    "titleTwo": "How to Play",
+    "partTwo": "Touch and drag a gem to swap it with an adjacent gem in the desired direction._Match at least three gems of the same type vertically or horizontally to destroy them._After gems are destroyed, the gems above them in the grid will fall into their place._Earn 100 points for each gem destroyed in a match._New random gems will fill in the empty spots._You have a 10-second time limit from the start of the game._Each gem in a match awards you with additional seconds._If you run out of time, the game ends.",
+    "videoId": "https://www.youtube.com/embed/jnGv_1mKeRc",
+    "imageOnePath": "assets/pictures/threematch/gifTwo.gif",
+    "imageTwoPath": "assets/pictures/threematch/gifOne.gif",
+    "imageThreePath": "assets/pictures/threematch/gifThree.gif",
+    "hasVideo": true,
+    "hasStore": true,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.gemmatch",
+    "tagCount": 3,
+    "tags": [
+      "Unity",
+      "C_",
+      "Mobile Game"
+    ]
+  },
+  {
+    "genre": "Merge Game",
+    "title": "I Want Sun",
+    "repoLink": "https://github.com/berkeparildar/I-Want-Sun",
+    "imageUrl": "assets/pictures/sun/logo.png",
+    "description": "I Want Sun is an addicting 2D merge mobile game heavily inspired by the popular game I Want Watermelon. In this game, player merges different variety of planets in our Solar System, and aims to create a Sun.",
+    "titleOne": "Features",
+    "partOne": "Addictive and strategic gameplay, challenging players to create larger planets._Keep an eye on your score and the number of suns acquired._Control FX and music volume to tailor the gaming experience.",
+    "titleTwo": "How to Play",
+    "partTwo": "Tap to drop planets from the top of the screen._Planets of the same type merge upon contact, forming a bigger planet._Merge planets strategically to maximize the score._Avoid stacking planets too high and hitting the limit._Achieve the ultimate goal: create a sun by merging planets efficiently.",
+    "videoId": "https://www.youtube.com/embed/2yEiP8obIEc",
+    "imageOnePath": "assets/pictures/sun/Untitled.gif",
+    "imageTwoPath": "assets/pictures/sun/Untitled2.gif",
+    "imageThreePath": "assets/pictures/sun/Untitled3.gif",
+    "hasVideo": true,
+    "hasStore": true,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.IWantSun",
+    "tagCount": 3,
+    "tags": [
+      "Unity",
+      "C_",
+      "Mobile Game"
+    ]
   },
   {
     "genre": "Runner Game",
@@ -137,7 +188,11 @@
     "hasStore": true,
     "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.factoryrun",
     "tagCount": 3,
-    "tags": ["Unity", "C_", "Mobile Game"]
+    "tags": [
+      "Unity",
+      "C_",
+      "Mobile Game"
+    ]
   },
   {
     "genre": "Arcade Game",
@@ -157,7 +212,11 @@
     "hasStore": true,
     "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.spacesnake",
     "tagCount": 3,
-    "tags": ["Unity", "C_", "Mobile Game"]
+    "tags": [
+      "Unity",
+      "C_",
+      "Mobile Game"
+    ]
   },
   {
     "genre": "RPG Game",
@@ -177,27 +236,10 @@
     "hasStore": false,
     "storeUrl": "",
     "tagCount": 2,
-    "tags": ["Unity", "C_"]
-  },
-  {
-    "genre": "Golf Game",
-    "title": "Putt Time",
-    "repoLink": "https://github.com/berkeparildar/Putt-Time",
-    "imageUrl": "assets/pictures/putttime/putttime.png",
-    "description": "Putt Time is a 3D singleplayer golf game heavily inspired by Discord's Putt Party. This game tests your precision and skill in four different courses, each with its own unique layout and obstacles.",
-    "titleOne": "Features",
-    "partOne": "Shooting the Ball: To shoot the ball, aim using the mouse and drag it to set the power of your shot. The longer you drag the mouse, the more power your shot will have. Pay attention to the direction, as it rotates faster with more power._Obstacles: Each course is filled with various obstacles that will put your skills to the test. From moving or rotating platforms, you'll need to carefully time your shots and make calculations to overcome these challenges._Jump Mechanic: On certain holes, you'll encounter special platforms that can launch your ball into the air.Utilize the jump mechanic by shooting towards the jump pads with the correct amount of power to pass the gaps in the courses._Score: Your score is determined by the number of shots it takes you to complete each hole. Strive for a low score and aim to get a hole-in-one whenever possible.",
-    "titleTwo": "How to Play",
-    "partTwo": "Shoot the ball by clicking on the ball and dragging it._Try to avoid obstacles when going towards the hole_Try to hit the hole in as less strokes as possible",
-    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
-    "imageOnePath": "assets/pictures/putttime/obstacle2.gif",
-    "imageTwoPath": "assets/pictures/putttime/jump.gif",
-    "imageThreePath": "assets/pictures/putttime/aim.gif",
-    "hasVideo": false,
-    "hasStore": false,
-    "storeUrl": "",
-    "tagCount": 2,
-    "tags": ["Unity", "C_"]
+    "tags": [
+      "Unity",
+      "C_"
+    ]
   },
   {
     "genre": "Blockchain",
@@ -217,7 +259,12 @@
     "hasStore": false,
     "storeUrl": "",
     "tagCount": 4,
-    "tags": ["Solidity", "Flutter", "Java", "NodeJS"]
+    "tags": [
+      "Solidity",
+      "Flutter",
+      "Java",
+      "NodeJS"
+    ]
   },
   {
     "genre": "Blockchain",
@@ -237,126 +284,11 @@
     "hasStore": false,
     "storeUrl": "",
     "tagCount": 4,
-    "tags": ["Solidity", "Flutter", "C_", "NodeJS"]
-  },
-  {
-    "genre": "Shooter Game",
-    "title": "ZomCube",
-    "repoLink": "https://github.com/berkeparildar/ZomCube",
-    "imageUrl": "assets/pictures/zomcube/zomcube.png",
-    "description": "ZomCube is a first-person shooter game set in a small town infested with hordes of cube zombies. Your mission is to survive the zombie attacks, score enough points in the challenge area, and defeat the powerful boss. Arm yourself with various weapons, find ammunition and healthkits, and try to survive.",
-    "titleOne": "Features",
-    "partOne": "Fun first-person shooter action against relentless waves of zombies._Explore a detailed and immersive small town environment, filled with abandoned buildings, and atmospheric lighting._Weapons: Pistol, automatic rifle, and shotgun, each with unique strengths and weaknesses._Magazines: Provides ammunition for your current weapon._Healthkits: Restores your health._Challenge area: Engage in a difficult fight against continuously spawning zombies. Collect for power-ups that provide temporary boosts in damage, speed, and health._Boss battle: Defeat the formidable boss with two unique abilities - a powerful dash attack and poisonous slime balls. Avoid the poison before it stacks too high._Progressive difficulty: Each time you defeat the boss, the game becomes harder. Zombies gain more health and deal more damage, while the boss becomes faster and gains more health._Action bar and UI: The action bar at the bottom allows you to switch between weapons and healthkits quickly._The UI displays your health and current ammo, keeping you informed and prepared for battle.",
-    "titleTwo": "How to Play",
-    "partTwo": "Explore the town and find your weapon of choice_Find magazines and health packs to increase your chance of success._Visit the enclosed challenge area in which you will face with wave of zombies until you win_In order to leave the challenge area victorious, you must score more than a 100 points._Do not forget to pick power-ups in the challenge area to help your fight against the zombies_Go over to the boss area and face of with the Huge Poisonous Zombie!_Start the game again, but this time the zombies are much more deadly!",
-    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
-    "imageOnePath": "assets/pictures/zomcube/ge.png",
-    "imageTwoPath": "assets/pictures/zomcube/chl.png",
-    "imageThreePath": "assets/pictures/zomcube/boss.png",
-    "hasVideo": false,
-    "hasStore": false,
-    "storeUrl": "",
-    "tagCount": 2,
-    "tags": ["Unity", "C_"]
-  },
-  {
-    "genre": "Mobile Application",
-    "title": "CookBook",
-    "repoLink": "https://github.com/berkeparildar/Cookbook-App",
-    "imageUrl": "assets/pictures/cookbook/cookbook.jpg",
-    "description": "Cookbook is a user-friendly mobile application developed using the Flutter framework that serves as your digital recipe organizer. With Cookbook, you can effortlessly store, manage, and follow your favorite cooking recipes. Cookbook makes cooking more enjoyable and organized, ensuring that you have all your favorite recipes at your fingertips.",
-    "titleOne": "Features",
-    "partOne": "Cookbook integrates Google authentication for a seamless and secure sign-in process. Users can sign in using their Google accounts, ensuring easy access to their recipe collection._Adding your recipes is a breeze with Cookbook. Simply provide the recipe's name, description, and any notes you'd like to include as helpful reminders._Select from a variety of tags to categorize your recipe for quick searching._When viewing a recipe, Cookbook offers an interactive slide view for the cooking and preparation methods._Users can swipe through the steps, ensuring a smooth and guided cooking experience._For instructions that require precise timing, Cookbook provides a built-in timer. Users can manage their cooking process with ease, thanks to this convenient feature._Looking for a specific recipe? Cookbook lets users search for recipes by name directly from the recipe list, saving time and effort._Users can mark recipes as favorites for quick access to their preferred dishes.Additionally, they can explore recipes based on specific tags, making it simple to discover recipes within desired categories.",
-    "titleTwo": "How to Use",
-    "partTwo": " Launch the Cookbook app. Sign in using your Google account to start managing your recipes._To add a recipe, click on the \"Add Recipe\" button. Enter the recipe's name, description, and any relevant notes. Choose tags that best represent the recipe._Include the required ingredients and provide a step-by-step method. Specify cooking and preparation time. Hit \"Save\" to add the recipe to your collection._On the main menu, you'll find your list of saved recipes. Tap on a recipe to view its details._Inside a recipe, tap the play button to access the interactive cooking guide. Swipe through the steps to follow the method._Utilize the built-in timer for time-sensitive instructions._Use the search bar to find recipes by name. Explore your favorite recipes under the \"Favorites\" section. Click on tags to view recipes within specific categories.",
-    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
-    "imageOnePath": "assets/pictures/cookbook/1.png",
-    "imageTwoPath": "assets/pictures/cookbook/2.png",
-    "imageThreePath": "assets/pictures/cookbook/3.png",
-    "hasVideo": false,
-    "hasStore": false,
-    "storeUrl": "",
-    "tagCount": 1,
-    "tags": ["Flutter"]
-  },
-  {
-    "genre": "Arcade Game",
-    "title": "DINO",
-    "repoLink": "https://github.com/berkeparildar/DINO",
-    "imageUrl": "assets/pictures/DINO/DINO.png",
-    "description": "This is the Dino game from Google Chrome I developed using the C language. The player controls a cute T-Rex dinosaur character, and the objective is to survive for as long as possible by jumping over cacti and dodging obstacles. As the game progresses, the speed gradually increases, making it more challenging and exciting.",
-    "titleOne": "Features",
-    "partOne": "Endless runner gameplay, offering a challenging and addictive experience._Increasing difficulty over time, testing the player's reflexes and timing._Light-hearted and fun gameplay suitable for quick entertainment during short breaks or downtime.",
-    "titleTwo": "How to Play",
-    "partTwo": "To start the game, press the \"Enter\"._The T-Rex dinosaur will start running automatically._To make the T-Rex jump, press the \"Spacebar\" key._The player must jump over cacti and other obstacles to avoid colliding with them._The game continues until the player collides with an obstacle, at which point the game ends._The player's score is displayed on the game over screen, indicating how far the T-Rex ran before colliding.",
-    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
-    "imageOnePath": "assets/pictures/DINO/cactus2.png",
-    "imageTwoPath": "assets/pictures/DINO/dino.gif",
-    "imageThreePath": "assets/pictures/DINO/dino4.png",
-    "hasVideo": false,
-    "hasStore": false,
-    "storeUrl": "",
-    "tagCount": 2,
-    "tags": ["C", "SDL"]
-  },
-  {
-    "genre": "Arcade Game",
-    "title": "Flappy Bird",
-    "repoLink": "https://github.com/berkeparildar/Flappy-Bird",
-    "imageUrl": "assets/pictures/fb/fb.png",
-    "description": "This is the Flappy Bird game I developed using the C++ language. The player controls a flying bird, and the objective is to survive for as long as possible by navigating between the pipes that appear.",
-    "titleOne": "Features",
-    "partOne": "Endless runner gameplay, offering a challenging and addictive experience._Light-hearted and fun gameplay suitable for quick entertainment during short breaks or downtime.",
-    "titleTwo": "How to Play",
-    "partTwo": "To start the game, press the \"Spacebar\"._The bird will flap for the first time and it is in your control from that point._To make the bird flap, press the \"Spacebar\" key._The player must keep jumping to float and not fall down.__The game continues until the player collides with a pipe, at which point the game ends._The player's score is displayed on the game over screen, indicating how many pipes the bird passes before colliding.",
-    "videoId": "",
-    "imageOnePath": "assets/pictures/fb/gameplay.gif",
-    "imageTwoPath": "assets/pictures/fb/gameover.png",
-    "imageThreePath": "assets/pictures/fb/idle.png",
-    "hasVideo": false,
-    "hasStore": false,
-    "storeUrl": "",
-    "tagCount": 2,
-    "tags": ["C", "SDL"]
-  },
-  {
-    "genre": "2D Platformer Game",
-    "title": "Dungeon Escape",
-    "repoLink": "https://github.com/berkeparildar/Dungeon-Escape",
-    "imageUrl": "assets/pictures/dungeonescape/dungeonescape.png",
-    "description": "This is the 2D platformer mobile game I developed following the Udemy Course. The player must fight with different monsters and collect gems that can be spent on power-ups",
-    "titleOne": "Features",
-    "partOne": "Enjoy a classic 2D platformer gameplay with smooth controls._Encounter three types of enemies, each with distinct behaviors and attack patterns._Experience challenging and engaging combat with enemies to test your skills._Collect gems to increase your score and earn currency for upgrades.",
-    "titleTwo": "How to Play",
-    "partTwo": "Use the arrow keys (left and right) to move the knight horizontally._Press the \"Spacebar\" to make the knight jump._Use the mouse button to attack enemies with the sword._The player must defeat enemies and navigate through the dungeon's obstacles to progress._The player's objective is to find the exit and escape the dungeon while defeating enemies along the way.",
-    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
-    "imageOnePath": "assets/pictures/dungeonescape/main.png",
-    "imageTwoPath": "assets/pictures/dungeonescape/shop.png",
-    "imageThreePath": "assets/pictures/dungeonescape/spider.png",
-    "hasVideo": false,
-    "hasStore": false,
-    "storeUrl": "",
-    "tagCount": 2,
-    "tags": ["Unity", "C_"]
-  },
-  {
-    "genre": "Arcade Game",
-    "title": "Space Shooter",
-    "repoLink": "https://github.com/berkeparildar/Space-Shooter",
-    "imageUrl": "assets/pictures/spaceshooter/spaceshooter.png",
-    "description": "Star Shooter is a 2D arcade-like game where players control a spaceship in space, battling enemy ships while collecting power-ups.",
-    "titleOne": "Features",
-    "partOne": "Avoid enemy ships while destroying them with lasers._Collect power-ups for temporary advantages: speed boost, triple shot, and a protective barrier._Engaging sound effects and music._Increase your score by eliminating enemy ships (10 points per enemy).",
-    "titleTwo": "How to Play",
-    "partTwo": "WASD controls for spaceship movement and spacebar to shoot lasers.",
-    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
-    "imageOnePath": "assets/pictures/spaceshooter/shield.png",
-    "imageTwoPath": "assets/pictures/spaceshooter/gameplay.gif",
-    "imageThreePath": "assets/pictures/spaceshooter/main.png",
-    "hasVideo": false,
-    "hasStore": false,
-    "storeUrl": "",
-    "tagCount": 2,
-    "tags": ["Unity", "C_"]
+    "tags": [
+      "Solidity",
+      "Flutter",
+      "C_",
+      "NodeJS"
+    ]
   }
 ]
