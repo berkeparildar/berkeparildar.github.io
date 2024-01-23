@@ -1,12 +1,36 @@
 [
   {
     "genre": "Arcade Game",
+    "title": "Picker3D",
+    "repoLink": "https://github.com/berkeparildar/Picker3D",
+    "imageUrl": "assets/pictures/p/logo.png",
+    "description": "Picker3D is a mobile game where players take control of a U shaped object. The objective is to collect all small obstacles in a platform and successfully carry them to the end of the level.",
+    "titleOne": "Features",
+    "partOne": "Simple and addictive endless gameplay._Dynamic and challenging levels._High score and progression tracking.",
+    "titleTwo": "How to Play",
+    "partTwo": "The picker automatically moves forward._Swipe left or right: Control the horizontal movement of the picker object._Collect everything along the platform._Reach the end to push objects into the basket._Gates open when the count is achieved, allowing progression to the next stage._In ramp sections, tap repeatedly to gain speed.",
+    "videoId": "https://www.youtube.com/embed/vESaYdveps0",
+    "imageOnePath": "assets/pictures/p/1.gif",
+    "imageTwoPath": "assets/pictures/p/2.gif",
+    "imageThreePath": "assets/pictures/p/3.gif",
+    "hasVideo": true,
+    "hasStore": true,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.Picker3D",
+    "tagCount": 3,
+    "tags": [
+      "Unity",
+      "C_",
+      "Mobile Game"
+    ]
+  },
+  {
+    "genre": "Arcade Game",
     "title": "Road Cross",
     "repoLink": "https://github.com/berkeparildar/Road-Cross",
     "imageUrl": "assets/pictures/cr/logo.png",
     "description": "Road Cross is a mobile game where players take control of a adventurous chicken attempting to cross busy roads and rivers. The objective is to navigate through the traffic and obstacles, avoiding collisions and reaching the other side to earn points.",
     "titleOne": "Features",
-    "partOne": "Simple and addictive endless runner gameplay._Earn points for successful crossings and compete for high scores._Enjoyable for quick rounds of gaming on mobile devices._Voxel-style graphics for a charming and visually appealing experience.",
+    "partOne": "Simple and addictive endless gameplay._Earn points for successful crossings and compete for high scores._Enjoyable for quick rounds of gaming on mobile devices._Voxel-style graphics for a charming and visually appealing experience.",
     "titleTwo": "How to Play",
     "partTwo": "Swipe in the desired direction to move the chicken: up, down, left, or right._Cross roads and rivers without getting hit by vehicles or falling into the water._Earn points for each successful crossing._The game ends if the chicken collides with a vehicle or falls into the water.",
     "videoId": "https://www.youtube.com/embed/D_ytC4uhcgg",
@@ -48,31 +72,7 @@
       "Multiplayer"
     ]
   },
-  {
-    "genre": "Blockchain",
-    "title": "Decentralized Student Information System",
-    "repoLink": "https://github.com/DecentralizedStundetInformationSystem",
-    "imageUrl": "assets/pictures/dsis/dsis.png",
-    "description": "The Decentralized Student Information System (DSIS) is a blockchain-based application for student information management. By leveraging the power of decentralized technology, DSIS ensures transparent and secure storage of student data, while providing functionalities such as enrollment, term management, course evaluation, and attendance tracking. DSIS consists of three main components: a server, a desktop application for administrators and staff, and a mobile application for students.",
-    "titleOne": "Components",
-    "partOne": "Server provides functionalities such as enrollment, term management, course evaluation, and attendance tracking. Built using Node.js, the server component acts as the bridge between the blockchain network and client applications, enabling seamless interactions with the decentralized student information system._The desktop application provides a user-friendly interface for administrators and staff members to efficiently manage student information. Student information that will be written on the blockchain is sent through this application._The mobile application is designed specifically for students, allowing them to access their personal information securely from their mobile devices. It offers features like grades, attendance tracking, and other relevant information.",
-    "titleTwo": "Students can: ",
-    "partTwo": "Access a list of courses they are enrolled in and view detailed information about each course, including course name, instructor, credits, and evaluation._Check their grades and attendance records for each course, providing them with real-time updates on their academic performance._Log in and register using their email and password through Firebase's email/password authentication. This provides a secure and reliable authentication mechanism for accessing the application.",
-    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
-    "imageOnePath": "assets/pictures/dsis/home_screen.png",
-    "imageTwoPath": "assets/pictures/dsis/login_screen.png",
-    "imageThreePath": "assets/pictures/dsis/grades.png",
-    "hasVideo": false,
-    "hasStore": false,
-    "storeUrl": "",
-    "tagCount": 4,
-    "tags": [
-      "Solidity",
-      "Flutter",
-      "Java",
-      "NodeJS"
-    ]
-  },
+  
   {
     "genre": "Runner Game",
     "title": "Space Gun Run",
@@ -95,31 +95,6 @@
       "Unity",
       "C_",
       "Mobile Game"
-    ]
-  },
-  {
-    "genre": "Blockchain",
-    "title": "HelpChain",
-    "repoLink": "https://github.com/B-C-Based-Disaster-Management",
-    "imageUrl": "assets/pictures/helpchain/helpchain.jpg",
-    "description": "This is the capstone project I worked on with my friends. Project's main goal and motivation are to provide a new blockchain based solution to disaster management. Disaster management consists of a series of disaster-related information processes in which the information is processed, stored, and disseminated to make effective decisions and construct a plan. Most of the current disaster management systems are infrastructure-dependent and work in a centralized manner, which can pose a threat in certain devastating outcomes. The involvement of both the government and the public is important in gathering and disseminating information, and their effectiveness would be severely diminished if these centralized and infrastructure dependent systems were to fail during the moments of disaster.",
-    "titleOne": "Components",
-    "partOne": "During the registration process, the user has to register with the system through a server because it is not feasible to create and deploy a smart contract from a mobile phone. Therefore, to sign up for the system, users must communicate with the server instead of the blockchain. The server gets the data that the user sends as parameters, which are \"Name\", \"Surname\", \"Address\", \"TCKN\" (Turkish State ID number) and using these parameters, it creates and deploys a smart contract. After creating and deploying the user’s contract to the system, the server provides the user his or her contract hash and writes that contract hash value to the Firebase. Users are required to access the blockchain with their own contract hash. This contract hash value is kept in a database to access the contracts from the desktop applications used by the relief organizations. Once registered, all the modifications to the existing records, such as address or status, will be reflected in the user's smart contract on the blockchain, by the server._The desktop application, which is the organization interface, provides the users at the organization with the ability to traverse the blockchain according to the list of the users’ contracts obtained from the Firebase and read their latest data to list the people in the blockchain with the status and address values._In the mobile application, users can create and log in to their own accounts. They will be logging in with their citizenship numbers and the password that they assigned for their accounts. The registered users can change their status to \"In distress\", \"Need Help\", \"Safe\" depending on the circumstances they are in during or after a disaster. They can also change their home address, preferably before the disastrous conditions take place, in case they move to a new location.",
-    "titleTwo": "System Overview",
-    "partTwo": "We used a Metamask coin wallet to test the smart contracts that we have written using Solidity language. As the testing network, we chose the Sepolia Ethereum Testing Network because of its similarities to the popular commercial blockchain networks._Infura is the tool that we use to get connection addresses on the Sepolia Ethereum test network. It provided us with the API’s for that task._Flutter is a framework that is built on Dart programming language. It is a cross platform development environment which means that we can publish the mobile application with single codebase in both Android and iOS. It has access to numerous tools such as Firebase connectivity and Web3 accesses._We utilized .NET/.NET Core’s Windows Presentation Foundation (WPF) app for the desktop application (the application which the disaster organizations will use) as part of the system. The reason we have chosen the .NET/.NET Core is that it has a wide range of integration possibilities with the technologies that are in the Microsoft ecosystem._Etherscan is a popular blockchain explorer and analytics platform especially designed for the Ethereum network. It provides us a means to track various Ethereum blockchain data that users send, such as transactions, smart contract creation, and event updates. We used this tool mainly when we did not have our “blockchain reading code” to validate and inspect the transactions and events that we send to the smart contracts.",
-    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
-    "imageOnePath": "assets/pictures/helpchain/1.png",
-    "imageTwoPath": "assets/pictures/helpchain/2.png",
-    "imageThreePath": "assets/pictures/helpchain/3.png",
-    "hasVideo": false,
-    "hasStore": false,
-    "storeUrl": "",
-    "tagCount": 4,
-    "tags": [
-      "Solidity",
-      "Flutter",
-      "C_",
-      "NodeJS"
     ]
   },
   {
@@ -220,6 +195,31 @@
     ]
   },
   {
+    "genre": "Blockchain",
+    "title": "Decentralized Student Information System",
+    "repoLink": "https://github.com/DecentralizedStundetInformationSystem",
+    "imageUrl": "assets/pictures/dsis/dsis.png",
+    "description": "The Decentralized Student Information System (DSIS) is a blockchain-based application for student information management. By leveraging the power of decentralized technology, DSIS ensures transparent and secure storage of student data, while providing functionalities such as enrollment, term management, course evaluation, and attendance tracking. DSIS consists of three main components: a server, a desktop application for administrators and staff, and a mobile application for students.",
+    "titleOne": "Components",
+    "partOne": "Server provides functionalities such as enrollment, term management, course evaluation, and attendance tracking. Built using Node.js, the server component acts as the bridge between the blockchain network and client applications, enabling seamless interactions with the decentralized student information system._The desktop application provides a user-friendly interface for administrators and staff members to efficiently manage student information. Student information that will be written on the blockchain is sent through this application._The mobile application is designed specifically for students, allowing them to access their personal information securely from their mobile devices. It offers features like grades, attendance tracking, and other relevant information.",
+    "titleTwo": "Students can: ",
+    "partTwo": "Access a list of courses they are enrolled in and view detailed information about each course, including course name, instructor, credits, and evaluation._Check their grades and attendance records for each course, providing them with real-time updates on their academic performance._Log in and register using their email and password through Firebase's email/password authentication. This provides a secure and reliable authentication mechanism for accessing the application.",
+    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
+    "imageOnePath": "assets/pictures/dsis/home_screen.png",
+    "imageTwoPath": "assets/pictures/dsis/login_screen.png",
+    "imageThreePath": "assets/pictures/dsis/grades.png",
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": "",
+    "tagCount": 4,
+    "tags": [
+      "Solidity",
+      "Flutter",
+      "Java",
+      "NodeJS"
+    ]
+  },
+  {
     "genre": "RPG Game",
     "title": "Druid's Tale",
     "repoLink": "https://github.com/berkeparildar/Druids-Tale",
@@ -261,6 +261,31 @@
     "storeUrl": "",
     "tagCount": 1,
     "tags": ["Flutter"]
+  },
+  {
+    "genre": "Blockchain",
+    "title": "HelpChain",
+    "repoLink": "https://github.com/B-C-Based-Disaster-Management",
+    "imageUrl": "assets/pictures/helpchain/helpchain.jpg",
+    "description": "This is the capstone project I worked on with my friends. Project's main goal and motivation are to provide a new blockchain based solution to disaster management. Disaster management consists of a series of disaster-related information processes in which the information is processed, stored, and disseminated to make effective decisions and construct a plan. Most of the current disaster management systems are infrastructure-dependent and work in a centralized manner, which can pose a threat in certain devastating outcomes. The involvement of both the government and the public is important in gathering and disseminating information, and their effectiveness would be severely diminished if these centralized and infrastructure dependent systems were to fail during the moments of disaster.",
+    "titleOne": "Components",
+    "partOne": "During the registration process, the user has to register with the system through a server because it is not feasible to create and deploy a smart contract from a mobile phone. Therefore, to sign up for the system, users must communicate with the server instead of the blockchain. The server gets the data that the user sends as parameters, which are \"Name\", \"Surname\", \"Address\", \"TCKN\" (Turkish State ID number) and using these parameters, it creates and deploys a smart contract. After creating and deploying the user’s contract to the system, the server provides the user his or her contract hash and writes that contract hash value to the Firebase. Users are required to access the blockchain with their own contract hash. This contract hash value is kept in a database to access the contracts from the desktop applications used by the relief organizations. Once registered, all the modifications to the existing records, such as address or status, will be reflected in the user's smart contract on the blockchain, by the server._The desktop application, which is the organization interface, provides the users at the organization with the ability to traverse the blockchain according to the list of the users’ contracts obtained from the Firebase and read their latest data to list the people in the blockchain with the status and address values._In the mobile application, users can create and log in to their own accounts. They will be logging in with their citizenship numbers and the password that they assigned for their accounts. The registered users can change their status to \"In distress\", \"Need Help\", \"Safe\" depending on the circumstances they are in during or after a disaster. They can also change their home address, preferably before the disastrous conditions take place, in case they move to a new location.",
+    "titleTwo": "System Overview",
+    "partTwo": "We used a Metamask coin wallet to test the smart contracts that we have written using Solidity language. As the testing network, we chose the Sepolia Ethereum Testing Network because of its similarities to the popular commercial blockchain networks._Infura is the tool that we use to get connection addresses on the Sepolia Ethereum test network. It provided us with the API’s for that task._Flutter is a framework that is built on Dart programming language. It is a cross platform development environment which means that we can publish the mobile application with single codebase in both Android and iOS. It has access to numerous tools such as Firebase connectivity and Web3 accesses._We utilized .NET/.NET Core’s Windows Presentation Foundation (WPF) app for the desktop application (the application which the disaster organizations will use) as part of the system. The reason we have chosen the .NET/.NET Core is that it has a wide range of integration possibilities with the technologies that are in the Microsoft ecosystem._Etherscan is a popular blockchain explorer and analytics platform especially designed for the Ethereum network. It provides us a means to track various Ethereum blockchain data that users send, such as transactions, smart contract creation, and event updates. We used this tool mainly when we did not have our “blockchain reading code” to validate and inspect the transactions and events that we send to the smart contracts.",
+    "videoId": "https://www.youtube.com/embed/7xJhA1cR8V0",
+    "imageOnePath": "assets/pictures/helpchain/1.png",
+    "imageTwoPath": "assets/pictures/helpchain/2.png",
+    "imageThreePath": "assets/pictures/helpchain/3.png",
+    "hasVideo": false,
+    "hasStore": false,
+    "storeUrl": "",
+    "tagCount": 4,
+    "tags": [
+      "Solidity",
+      "Flutter",
+      "C_",
+      "NodeJS"
+    ]
   },
   {
     "genre": "Runner Game",
