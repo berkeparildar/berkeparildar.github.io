@@ -23,3 +23,11 @@
   color: #f38ba8;
   font-weight: bold;
 }
+
+#stat-q a:hover {
+  color:  #cba6f7!important;
+}
+
+#stat:visited {
+  color:  #cdd6f4!important;
+}

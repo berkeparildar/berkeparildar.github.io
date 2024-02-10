@@ -1,8 +1,9 @@
+<app-main-page></app-main-page>
 <div class="container">
   <h1>Projects</h1>
   <div class="project-grid">
     <div class="row">
-      <div class="col-md-6 col-lg-4 d-flex justify-content-center" *ngFor="let project of projects">
+      <div class="col-md-6 col-lg-6 d-flex justify-content-center" *ngFor="let project of projects">
         <app-project-tile
           [genre]="project.genre"
           [title]="project.title"
@@ -22,6 +23,11 @@
           [storeUrl] = "project.storeUrl"
           [tagCount] = project.tagCount
           [tags] = "project.tags"
+          [isPortait]="project.isPortait"
+          [thumbnailOnePath]="project.thumbnailOnePath"
+          [thumbnailTwoPath]="project.thumbnailTwoPath"
+          [thumbnailThreePath]="project.thumbnailThreePath"
+          [thumbnailString]="project.thumbnailString"
         ></app-project-tile>
       </div>
     </div>

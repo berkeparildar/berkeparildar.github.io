@@ -5,10 +5,8 @@ import {MAT_DIALOG_DATA} from "@angular/material/dialog";
   templateUrl: './cv-view.component.html',
   styleUrls: ['./cv-view.component.css']
 })
-export class CvViewComponent implements OnInit {
+export class CvViewComponent {
   cvPdfUrl: string = 'src/assets/cv.pdf';
-  constructor(@Inject(MAT_DIALOG_DATA) public data: any) {}
-  ngOnInit(): void {
-    this.cvPdfUrl = this.data.cvPdfUrl;
-  }
+  constructor() {}
+
 }

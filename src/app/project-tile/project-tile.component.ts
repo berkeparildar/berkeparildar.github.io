@@ -2,6 +2,7 @@
 import { Component, Input } from '@angular/core';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { ProjectViewComponent } from '../project-view/project-view.component';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-project-tile',
@@ -9,6 +10,7 @@ import { ProjectViewComponent } from '../project-view/project-view.component';
   styleUrls: ['./project-tile.component.css']
 })
 export class ProjectTileComponent {
+  safeURL!: SafeResourceUrl;
   @Input() genre!: string;
   @Input() title!: string;
   @Input() repoLink!: string;
@@ -27,8 +29,17 @@ export class ProjectTileComponent {
   @Input() storeUrl!: string;
   @Input() tagCount!: number;
   @Input() tags!: string[];
+  @Input() isPortait!: boolean;
+  @Input() thumbnailOnePath!: string;
+  @Input() thumbnailTwoPath!: string;
+  @Input() thumbnailThreePath!: string;
+  @Input() thumbnailString!: string;
 
-  constructor(private dialog: MatDialog) { }
+  constructor(private dialog: MatDialog,  private sanitizer: DomSanitizer) { }
+
+  ngOnInit() {
+    this.safeURL = this.sanitizer.bypassSecurityTrustResourceUrl(this.videoId);
+  }
 
   openProjectView(): void {
     const dialogConfig = new MatDialogConfig();

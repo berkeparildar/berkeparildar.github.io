@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,10 +14,14 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { Routes, RouterModule } from '@angular/router';
 import { CvViewComponent } from './cv-view/cv-view.component';
 import {HttpClientModule} from "@angular/common/http";
+import { CertificatesComponent } from './certificates/certificates.component';
+import { CertificateTileComponent } from './certificate-tile/certificate-tile.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', component: ProjectsComponent },
-  { path: 'about', component: MainPageComponent },
+  { path: 'certificates', component: CertificatesComponent },
+  { path: 'contact', component: ContactComponent },
 ];
 
 @NgModule({
@@ -29,10 +34,13 @@ const routes: Routes = [
     ProjectTileComponent,
     ProjectViewComponent,
     CvViewComponent,
+    CertificatesComponent,
+    CertificateTileComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
     MatDialogModule,

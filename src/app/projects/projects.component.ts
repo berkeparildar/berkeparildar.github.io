@@ -19,6 +19,11 @@ interface Project {
   storeUrl: string;
   tagCount: number;
   tags: string[];
+  isPortait: boolean;
+  thumbnailOnePath: string;
+  thumbnailTwoPath: string;
+  thumbnailThreePath: string;
+  thumbnailString: string
 }
 @Component({
   selector: 'app-projects',
