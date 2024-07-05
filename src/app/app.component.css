@@ -1,0 +1,11 @@
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+body {
+    background-color: var(--background-light);
+}
+
+html {
+    background-color: var(--background-light);
+}

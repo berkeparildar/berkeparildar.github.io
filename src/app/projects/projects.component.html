@@ -1,0 +1,20 @@
+<app-introduction></app-introduction>
+<div class="container">
+  <h1>Projects</h1>
+  <div class="project-grid">
+    <div class="row">
+      <div class="col-md-6 col-lg-6 d-flex justify-content-center" *ngFor="let project of projects">
+        <app-project-tile
+          [projectName]="project.projectName"
+          [repositoryURL]="project.repositoryURL"
+          [projectDescription]="project.projectDescription"
+          [projectFeatures]="project.projectFeatures"
+          [projectUsage]="project.projectUsage"
+          [videoURL]="project.videoURL"
+          [tags] = "project.tags"
+          [titleTwo] = "project.titleTwo"
+        ></app-project-tile>
+      </div>
+    </div>
+  </div>
+</div>

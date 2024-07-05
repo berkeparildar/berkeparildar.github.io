@@ -1,0 +1,212 @@
+[
+  {
+    "projectName": "Holler",
+    "repositoryURL": "https://github.com/berkeparildar/Holler",
+    "projectDescription": "Holler is an iOS social media application inspired by Twitter, where users can share their thoughts, updates, and moments with others. The app provides a platform for users to post text and photos, interact with other users through likes and replies, and follow their favorite people to see their posts in a personalized feed.",
+    "projectFeatures": [
+      "Tabs and Navigation: The app features three tabs—Search, Feed, and Profile—allowing users to search for other users by username, view posts from followed users, and view or edit personal profile details.",
+      "Posting and Interaction: Users can create posts with text, photos, or both, and interact with posts by liking or replying.",
+      "User Profiles: Users can view other users' profiles, follow or unfollow them, and see their posts, profile image, banner image, and follower information.",
+      "Profile Customization: Users can edit and update their profile images and banner images, with images stored in Firebase Cloud Storage.",
+      "Backend Integration: The app uses Firebase Firestore for managing user data and posts, Firebase Authentication for account creation and login, and Firebase Cloud Storage for storing images.",
+      "Technical Stack: Developed using UIKit for the user interface, and following the MVVM (Model-View-ViewModel) architectural pattern to ensure a clean and maintainable codebase."
+    ],
+    "projectUsage": [
+      "Sign Up and Log In: Open Holler, sign up with email, password, name, and username, and log in using the registered email and password.",
+      "Navigate the App: Use the Search Tab to find and follow other users by typing their username, check the Feed Tab to see posts from followed users, and access the Profile Tab to view and edit personal profile information.",
+      "Create and Interact with Posts: Tap the create post button on the Feed page to add text and/or a photo, tap on a post to view it in detail and see replies, and like or reply to posts to engage with other users.",
+      "Manage Follows: Search for a user in the Search Tab, tap on their profile, click the follow button to see their posts in your feed, and tap the unfollow button to remove their posts from your feed.",
+      "Edit Profile: Go to the Profile Tab, tap the edit button, update your profile image or banner image, and save changes to update your profile."
+    ],
+    "videoURL": "https://youtu.be/qzHFDbrYlcA",
+    "tags": [
+      "Swift",
+      "UIKit",
+      "Firestore"
+    ],
+    "titleTwo": "Using the Application"
+  },
+  {
+    "projectName": "Decentralized Student Information System",
+    "repositoryURL": "https://github.com/DecentralizedStundetInformationSystem",
+    "projectDescription": "The Decentralized Student Information System (DSIS) is a blockchain-based application for student information management. By leveraging the power of decentralized technology, DSIS ensures transparent and secure storage of student data, while providing functionalities such as enrollment, term management, course evaluation, and attendance tracking. DSIS consists of three main components: a server, a desktop application for administrators and staff, and a mobile application for students.",
+    "projectFeatures": [
+      "Server provides functionalities such as enrollment, term management, course evaluation, and attendance tracking. Built using Node.js, the server component acts as the bridge between the blockchain network and client applications, enabling seamless interactions with the decentralized student information system.",
+      "The desktop application provides a user-friendly interface for administrators and staff members to efficiently manage student information. Student information that will be written on the blockchain is sent through this application.",
+      "The mobile application is designed specifically for students, allowing them to access their personal information securely from their mobile devices. It offers features like grades, attendance tracking, and other relevant information."
+    ],
+    "projectUsage": [
+      "Access a list of courses they are enrolled in and view detailed information about each course, including course name, instructor, credits, and evaluation.",
+      "Check their grades and attendance records for each course, providing them with real-time updates on their academic performance.",
+      "Log in and register using their email and password through Firebase's email/password authentication. This provides a secure and reliable authentication mechanism for accessing the application."
+    ],
+    "videoURL": "",
+    "tags": [
+      "Solidity",
+      "Flutter",
+      "Java",
+      "NodeJS"
+    ],
+    "titleTwo": "Usage for Students"
+  },
+  {
+    "projectName": "Market",
+    "repositoryURL": "https://github.com/berkeparildar/Market",
+    "projectDescription": "Market is an iOS application designed to transform your phone into a convenient marketplace. The app allows users to browse and purchase products easily through a user-friendly interface featuring categorized product listings, a dynamic cart system, and personalized product suggestions.",
+    "projectFeatures": [
+      "User Interface: The app opens to a Products Page with a horizontally scrollable category bar at the top and a vertically scrollable product list below, allowing users to easily navigate between different product categories.",
+      "Adding to Cart: Users can add products to their cart by tapping the '+' button on the product, which then opens a stepper to adjust the quantity. The cart button in the upper right corner shows the total amount in the cart.",
+      "Detailed Product View: Tapping on a product opens a detailed view where users can add or remove the product from their cart and adjust its quantity.",
+      "Cart Management: Users can access the cart by tapping the cart button in the navigation bar. The cart page displays all added products with steppers to control their quantity, an empty cart button to clear all items, and a horizontally scrollable list of suggested products based on the categories of items in the cart.",
+      "Suggested Products: Suggested products appear below the cart items and can be added to the cart by tapping the '+' sign.",
+      "Order Completion: A button below the suggested products allows users to complete their order. Upon completion, users receive a success notification with the total amount and are automatically navigated back to the Products Page.",
+      "Data Persistence: Core Data integration ensures that products added to the cart are saved locally, allowing users to retain their cart items even if they quit the app."
+    ],
+    "projectUsage": [
+      "Navigate Categories: Open the app to the Products Page and use the horizontally scrollable category bar to browse through different product categories.",
+      "Add Products to Cart: Tap the '+' button on any product to add it to the cart. Use the stepper to adjust the quantity. The cart button will display the current total amount in the cart.",
+      "View Product Details: Tap on any product to see more details. From the detailed view, adjust the product quantity or add/remove it from the cart.",
+      "Manage Cart: Tap the cart button in the navigation bar to view all items in your cart. Adjust quantities using the steppers, or use the empty cart button to remove all items.",
+      "Add Suggested Products: Scroll through the suggested products list below the cart items and tap the '+' sign to add any suggested item to the cart.",
+      "Complete Order: Tap the 'Complete Order' button to finalize your purchase. A success notification with the total amount will appear, and you will be navigated back to the Products Page."
+    ],
+    "videoURL": "https://youtu.be/15HQuH9yYJ4",
+    "tags": [
+      "Swift",
+      "UIKit",
+      "ASP .NET Core"
+    ],
+    "titleTwo": "Using the Application"
+  },
+  {
+    "projectName": "Picker3D",
+    "repositoryURL": "https://github.com/berkeparildar/Picker3D",
+    "projectDescription": "Picker3D is a mobile game where players take control of a U shaped object. The objective is to collect all small obstacles in a platform and successfully carry them to the end of the level.",
+    "projectFeatures": [
+      "Simple and addictive endless gameplay.",
+      "Dynamic and challenging levels",
+      "High score and progression tracking."
+    ],
+    "projectUsage": [
+      "The picker automatically moves forward.",
+      "Swipe left or right: Control the horizontal movement of the picker object.",
+      "Collect everything along the platform.",
+      "Reach the end to push objects into the basket.",
+      "Gates open when the count is achieved, allowing progression to the next stage.",
+      "In ramp sections, tap repeatedly to gain speed."
+    ],
+    "videoURL": "https://www.youtube.com/watch?v=vESaYdveps0&t=92s",
+    "tags": [
+      "Unity",
+      "C#"
+    ],
+    "titleTwo": "How to Play"
+  },
+  {
+    "projectName": "Road Cross",
+    "repositoryURL": "https://github.com/berkeparildar/Road-Cross",
+    "projectDescription": "Road Cross is a mobile game where players take control of a adventurous chicken attempting to cross busy roads and rivers. The objective is to navigate through the traffic and obstacles, avoiding collisions and reaching the other side to earn points.",
+    "projectFeatures": [
+      "Simple and addictive endless gameplay.",
+      "Earn points for successful crossings and compete for high scores.",
+      "Enjoyable for quick rounds of gaming on mobile devices.",
+      "Voxel-style graphics for a charming and visually appealing experience."
+    ],
+    "projectUsage": [
+      "Swipe in the desired direction to move the chicken: up, down, left, or right.",
+      "Cross roads and rivers without getting hit by vehicles or falling into the water.",
+      "Earn points for each successful crossing.",
+      "The game ends if the chicken collides with a vehicle or falls into the water."
+    ],
+    "videoURL": "https://www.youtube.com/watch?v=D_ytC4uhcgg",
+    "tags": [
+      "Unity",
+      "C#"
+    ],
+    "titleTwo": "How to Play"
+  },
+  {
+    "projectName": "HelpChain",
+    "repositoryURL": "https://github.com/B-C-Based-Disaster-Management",
+    "projectDescription": "This project's main goal and motivation are to provide a new blockchain based solution to disaster management. Disaster management consists of a series of disaster-related information processes in which the information is processed, stored, and disseminated to make effective decisions and construct a plan. Most of the current disaster management systems are infrastructure-dependent and work in a centralized manner, which can pose a threat in certain devastating outcomes. The involvement of both the government and the public is important in gathering and disseminating information, and their effectiveness would be severely diminished if these centralized and infrastructure dependent systems were to fail during the moments of disaster.",
+    "projectFeatures": [
+      "During the registration process, the user has to register with the system through a server because it is not feasible to create and deploy a smart contract from a mobile phone. Therefore, to sign up for the system, users must communicate with the server instead of the blockchain. The server gets the data that the user sends as parameters, which are \"Name\", \"Surname\", \"Address\", \"TCKN\" (Turkish State ID number) and using these parameters, it creates and deploys a smart contract. After creating and deploying the user’s contract to the system, the server provides the user his or her contract hash and writes that contract hash value to the Firebase. Users are required to access the blockchain with their own contract hash. This contract hash value is kept in a database to access the contracts from the desktop applications used by the relief organizations. Once registered, all the modifications to the existing records, such as address or status, will be reflected in the user's smart contract on the blockchain, by the server.",
+      "The desktop application, which is the organization interface, provides the users at the organization with the ability to traverse the blockchain according to the list of the users’ contracts obtained from the Firebase and read their latest data to list the people in the blockchain with the status and address values.",
+      "In the mobile application, users can create and log in to their own accounts. They will be logging in with their citizenship numbers and the password that they assigned for their accounts. The registered users can change their status to \"In distress\", \"Need Help\", \"Safe\" depending on the circumstances they are in during or after a disaster. They can also change their home address, preferably before the disastrous conditions take place, in case they move to a new location."
+    ],
+    "projectUsage": [
+      "We used a Metamask coin wallet to test the smart contracts that we have written using Solidity language. As the testing network, we chose the Sepolia Ethereum Testing Network because of its similarities to the popular commercial blockchain networks",
+      "Infura is the tool that we use to get connection addresses on the Sepolia Ethereum test network. It provided us with the API’s for that task.",
+      "Flutter is a framework that is built on Dart programming language. It is a cross platform development environment which means that we can publish the mobile application with single codebase in both Android and iOS. It has access to numerous tools such as Firebase connectivity and Web3 accesses.",
+      "We utilized .NET/.NET Core’s Windows Presentation Foundation (WPF) app for the desktop application (the application which the disaster organizations will use) as part of the system. The reason we have chosen the .NET/.NET Core is that it has a wide range of integration possibilities with the technologies that are in the Microsoft ecosystem.",
+      "Etherscan is a popular blockchain explorer and analytics platform especially designed for the Ethereum network. It provides us a means to track various Ethereum blockchain data that users send, such as transactions, smart contract creation, and event updates. We used this tool mainly when we did not have our “blockchain reading code” to validate and inspect the transactions and events that we send to the smart contracts."
+    ],
+    "videoURL": "",
+    "tags": [
+      "Solidity",
+      "Flutter",
+      "C#",
+      "NodeJS"
+    ],
+    "titleTwo": "System Overview"
+  },
+  {
+    "projectName": "Freeway Drive",
+    "repositoryURL": "https://github.com/berkeparildar/Freeway-Drive",
+    "projectDescription": "Freeway Drive is an exhilarating endless driving game where players take control of a constantly moving car on a busy freeway. The car gradually gains speed as the game progresses, challenging players' reflexes and decision-making. The objective is to avoid colliding with randomly generated cars on the freeway for as long as possible.",
+    "projectFeatures": [
+      "Endless driving gameplay, offering a challenging and exciting experience.",
+      "Gradually increasing car speed, testing your reflexes and ability to navigate through traffic.",
+      "Realistic freeway environment with randomly generated cars and smooth controls.",
+      "Dynamic lane-changing mechanics to avoid collisions and maneuver through traffic.",
+      "Pick up handling powerups to enhance your ability to change lanes quickly.",
+      "Collect ghost powerups to temporarily phase through other cars and avoid collisions.",
+      "Earn money pickups on the freeway and spend them on customizing your car's color.",
+      "Watch rewarded ad videos for a second chance if you crash during the game.",
+      "Strive for the highest score and compete with yourself to beat your previous records."
+    ],
+    "projectUsage": [
+      "Swipe left or right to change lanes and avoid collisions with other cars.",
+      "Watch out for randomly generated cars changing lanes, indicated by their blinkers.",
+      "Collect handling powerups to reduce lane-changing time, aiding in avoiding collisions.",
+      "_Pick up ghost powerups to temporarily become transparent and move through other cars to avoid collisions.",
+      "Customize your car's color using one of the six available color options, each costing 100$",
+      "If you crash, you can watch a rewarded ad video to continue the game from where you left off."
+    ],
+    "videoURL": "https://www.youtube.com/watch?v=tqJnv6PXmFk",
+    "tags": [
+      "Unity",
+      "C#"
+    ],
+    "titleTwo": "How to Play"
+  },
+  {
+    "projectName": "News",
+    "repositoryURL": "https://github.com/berkeparildar/News",
+    "projectDescription": "News is an iOS application designed to provide users with access to news articles from multiple categories and sources. The app allows users to customize their news feed by selecting preferred categories, view trending and top articles, and search for specific news stories, all within an intuitive and user-friendly interface.",
+    "projectFeatures": [
+      "Onboarding and Personalization: Users are greeted with an onboarding page that allows them to select news categories of interest, creating a personalized news feed tailored to their preferences.",
+      "Personal Feed: The feed page displays the current date, weather information, and a list of articles grouped by the selected categories, offering a customized browsing experience.",
+      "Trending and Top Articles: The second page of the app showcases trending and top articles from the last day, keeping users updated with the latest important news.",
+      "Category Navigation: The third page features a horizontally scrollable list of categories and their respective articles. Users can also navigate here by tapping on category titles in their personal feed.",
+      "Search Functionality: Each page includes a search button in the navigation bar, allowing users to search for articles by keywords and view results in a list format.",
+      "Seamless Browsing: Implemented paging for smooth and continuous article browsing, enhancing the user experience.",
+      "Custom Tab Bar: Designed a custom tab bar for easy navigation between different screens within the app.",
+      "Backend Integration: Utilized the News API to fetch articles and display them in the app, ensuring users have access to up-to-date news content.",
+      "Technical Stack: Developed using SwiftUI for the user interface, and followed the MVVM (Model-View-ViewModel) architectural pattern to ensure a clean and maintainable codebase."
+    ],
+    "projectUsage": [
+      "Onboard and Personalize: Open News, complete the onboarding process by selecting your preferred news categories, and proceed to your personalized feed.",
+      "Navigate the App: Use the custom tab bar to switch between your personal feed, trending and top articles, and the category page.",
+      "Browse and Read Articles: Scroll through your personal feed to read articles from your chosen categories, and tap on any article to read it in detail.",
+      "Search for News: Tap the search button in the navigation bar, enter keywords to find specific articles, and browse the search results.",
+      "Explore Categories: Navigate to the category page to view articles grouped by category, and tap on any category title in your feed to explore more articles in that category."
+    ],
+    "videoURL": "https://youtu.be/wPzSTrPbEFk",
+    "tags": [
+      "Swift",
+      "SwiftUI"
+    ],
+    "titleTwo": "Using the Application"
+  }
+]

@@ -1,0 +1,17 @@
+.profile-section {
+  margin-top: 50px;
+}
+.highlight {
+  background-color: #f0e0ff; /* Light purple background */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.profile-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  background-color: var(--background-dark);
+}

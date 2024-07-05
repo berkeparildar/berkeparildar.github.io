@@ -1,0 +1,89 @@
+:root {
+  --background-dark: #f5f5f7;
+  --background-light: #ffffff;
+  --text: #1d1d1f;
+  --text-gray: #6e6e73;
+  --system-red: #ff3b30;
+  --system-mint: #00c7be;
+  --system-purple: #af52de;
+  --system-green: #34c759;
+  --system-orange: #ff9500;
+  --system-teal: #30A7C6;
+  --system-blue: #007aff;
+  --system-indigo: #5856d6;
+  --system-yellow: #ffcc00;
+  --system-darkblue: #0040dd;
+  --system-cyan: #32ADE6;
+  --system-pink: #FF2D55;
+  --system-purple: #AF52DE;
+  --system-brown: #A2845E
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: var(--background-light);
+}
+
+html {
+  background-color: var(--background-light);
+}
+
+body {
+  background-color: var(--background-light);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%
+}
+
+.custom-modal {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+}
+
+/* styles.css or project-view.component.css */
+.mat-mdc-dialog-container {
+  background-color: transparent;
+  border-radius: 18px !important;
+  --mdc-dialog-container-color: transparent !important;
+}
+.mdc-dialog__surface {
+  border-radius: 18px !important;
+  background-color: transparent;
+}
+.mdc-dialog__container {
+  border-radius: 18px !important;
+  background-color: transparent;
+}
+
+.mat-mdc-dialog-surface {
+  border-radius: 18px !important;
+
+} 
+.mdc-dialog__surface {
+  border-radius: 18px !important;
+
+}
+.mat-mdc-dialog-surface mdc-dialog__surface  {
+  border-radius: 18px !important;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background-dark);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--text);
+  border-radius: 18px 0px 0px 18px;
+}

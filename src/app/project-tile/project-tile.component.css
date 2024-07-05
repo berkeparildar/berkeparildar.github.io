@@ -1,0 +1,170 @@
+.project-tile {
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 10px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+  justify-content: space-between;
+  box-shadow: 2px 4px 12px #00000030;
+}
+
+.title {
+  color: var(--text);
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: start;
+  padding-left: 5px;
+}
+
+.image-container {
+  padding-right: 5px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.project-image {
+  max-width: calc(100% / 3);
+  max-height: 300px;
+  margin: 0.5vw;
+  border-radius: 18px;
+}
+
+.project-image-landscape {
+  max-width: calc(100%);
+  max-height: 300px;
+  border-radius: 18px;
+  margin: 0.5vw;
+}
+
+.description {
+  color: var(--text);
+  padding: 5px;
+  height: 85px;
+  text-align: justify;
+}
+
+.tags {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tag {
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.tag-Firestore {
+  background-color: var(--system-yellow);
+}
+
+.tag-SwiftUI {
+  background-color: var(--system-blue);
+}
+
+.tag-NodeJS {
+  background-color: var(--system-green);
+}
+
+.tag-MVVM {
+  background-color: var(--system-pink);
+}
+
+.tag-VIPER {
+  background-color: var(--system-indigo);
+}
+
+.tag-UIKit {
+  background-color: var(--system-red);
+}
+
+.tag-Swift {
+  background-color: var(--system-orange);
+}
+
+.tag-C_ {
+  background-color: var(--system-purple);
+}
+
+.tag-Unity {
+  background-color: black;
+}
+
+.tag-Solidity {
+  background-color: black;
+}
+
+.tag-Java {
+  background-color: var(--system-orange);
+}
+
+.tag-Flutter {
+  background-color: var(--system-mint);
+}
+
+.tag-ASP {
+  background-color: var(--system-purple);
+}
+
+.tags-container {
+  display: flex;
+  align-items: center;
+}
+
+.tags {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.placeholder-icons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.placeholder-icon {
+  color: #fff;
+  padding: 5px;
+}
+
+.more-info {
+  color: #1e1e2e;
+  text-decoration: none;
+  padding: 10px;
+  color: var(--system-blue);
+  margin-left: auto;
+  font-weight: 500;
+  margin-right: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.shadow-icon:hover {
+  filter: drop-shadow(0 0 0.5rem #a6e3a1);
+  transition: filter 300ms linear;
+}
+
+.more-info:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.placeholder-icon a i {
+  font-size: 32px;
+}
+
+.placeholder-icon a i:hover {
+  color: var(--system-mint);;
+  transition: color 300ms linear;
+}

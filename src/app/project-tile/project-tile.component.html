@@ -1,0 +1,25 @@
+<div class="project-tile">
+  <div class="image-container">
+    <img [src]="getImagePath(1)" alt="Image One" class="project-image" />
+    <img [src]="getImagePath(2)" alt="Image Two" class="project-image" />
+    <img [src]="getImagePath(3)" alt="Image Three" class="project-image" />
+  </div>
+  <div class = "tags-container">
+    <div class="tags">
+      <span *ngFor="let tag of tags" [ngClass]="'tag-' + coreTag(tag)" class="tag">
+        {{ tag }}
+      </span>
+    </div>
+    <div class="placeholder-icons">
+      <span *ngIf="hasVideo()" class="placeholder-icon"><a [href]="videoURL" target="_blank"><i  style="color: #FF0000;" class="fab fa-youtube"></i></a></span>
+      <span class="placeholder-icon"><a [href]="repositoryURL" target="_blank"><i  style="color: #6e5494;" class="fab fa-github"></i></a></span>
+    </div>
+  </div>
+  <div>
+    <div class="title">{{ projectName }}</div>
+  <div class="description">
+    {{ getThumbnailDescription(projectDescription) }}
+  </div>
+  </div>
+  <p (click)="openProjectView()" class="more-info" href="">More information <i class="fa-solid fa-chevron-right"></i></p>
+</div>

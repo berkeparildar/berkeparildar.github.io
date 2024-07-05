@@ -1,0 +1,12 @@
+.navigation-container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.navbar-nav .nav-item + .nav-item {
+    margin-left: 20px;
+}
+
+*{
+    color: gray;
+    background-color: --var(background-light);
+}

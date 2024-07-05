@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Çevik Proje Yönetimi",
+    "imagePath": "assets/certificates/cpy.png",
+    "url": "https://coursera.org/verify/ZMGFG3ZUAUBC"
+  },
+  {
+    "name": "Getir iOS Swift Bootcamp",
+    "imagePath": "assets/certificates/gisb.png",
+    "url": "https://cohorts.patika.dev/certificates/265e78dc"
+  },
+  {
+    "name": "Proje Planlaması",
+    "imagePath": "assets/certificates/pphs.jpeg",
+    "url": "https://coursera.org/verify/5R897G3ZDKJC"
+  },
+  {
+    "name": "Proje Yürütme",
+    "imagePath": "assets/certificates/ppphg.jpeg",
+    "url": "https://coursera.org/verify/G55EBC69ZCBF"
+  },
+  {
+  "name": "Projeyi Başlatma",
+  "imagePath": "assets/certificates/pbpbaa.png",
+  "url": "https://coursera.org/verify/E9GNJ675SH5Q"
+},
+  {
+    "name": "Proje Yönetiminin Temelleri",
+    "imagePath": "assets/certificates/pty.png",
+    "url": "https://coursera.org/verify/SEMM7QVSHPUS"
+  },
+  {
+    "name": "SummerCamp'22 Flutter Bootcamp",
+    "imagePath": "assets/certificates/scfb.png",
+    "url": "https://verified.sertifier.com/en/verify/84292499712757/?ref"
+  },
+  {
+    "name": "SummerCamp'22 || Tensorflow Bootcamp",
+    "imagePath": "assets/certificates/sctb.png",
+    "url": "https://verified.sertifier.com/en/verify/41923750590312/?ref"
+  },
+  {
+    "name": "Unity Game Development Bootcamp",
+    "imagePath": "assets/certificates/ugdb.png",
+    "url": "https://certificates.techcareer.net/tr/verify/81777765051236"
+  }
+]

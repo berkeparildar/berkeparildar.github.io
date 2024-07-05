@@ -1,0 +1,27 @@
+.contact-container {
+	text-align: center;
+	padding: 20px 0px;
+	border-radius: 18px;
+	margin: 20px auto;
+  }
+
+  .contact-info {
+	padding: 0px;
+  }
+
+  .info-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+  }
+
+  .contact-icon {
+	font-size: 1.5rem;
+	padding: 5px;
+	color: var(--system-blue);
+  }
+
+  .way {
+	margin-right: 10px;
+  }
