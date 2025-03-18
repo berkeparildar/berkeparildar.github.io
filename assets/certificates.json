@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Bootcamp Jüri Özel Ödül Sertifikası",
+    "imagePath": "assets/certificates/joos.png",
+    "url": "https://verified.sertifier.com/tr/verify/86350055650208/"
+  },
+  {
+    "name": "Google Proje Yönetimi",
+    "imagePath": "assets/certificates/py.png",
+    "url": "https://coursera.org/verify/professional-cert/ZSTY4BTNBLUT"
+  },
+  {
+    "name": "Getir iOS Swift Bootcamp",
+    "imagePath": "assets/certificates/gisb.png",
+    "url": "https://cohorts.patika.dev/certificates/265e78dc"
+  },
+  {
+    "name": "Oyun ve Uygulama Akademisi Mezuniyet Sertifikası",
+    "imagePath": "assets/certificates/ouam.png",
+    "url": "https://verified.sertifier.com/tr/verify/14949781638653"
+  },
+  {
+    "name": "Unity ile Oyun Geliştirme",
+    "imagePath": "assets/certificates/uiog.png",
+    "url": "https://verified.sertifier.com/tr/verify/88359360335781/"
+  },
+  {
+    "name": "Yapay Zeka Eklentili Oyun Geliştirme",
+    "imagePath": "assets/certificates/yzdu.png",
+    "url": "https://verified.sertifier.com/tr/verify/86979216712033/"
+  },
+  {
+    "name": "Unity Game Development Bootcamp",
+    "imagePath": "assets/certificates/ugdb.png",
+    "url": "https://certificates.techcareer.net/tr/verify/81777765051236"
+  },
+  {
+    "name": "The Ultimate Guide to Game Development with Unity",
+    "imagePath": "assets/certificates/uggdu.jpg",
+    "url": "https://www.udemy.com/certificate/UC-fe6a7185-f4bd-4529-9753-a17d9b87b7f8/"
+  },
+  {
+    "name": "SummerCamp'22 Flutter Bootcamp",
+    "imagePath": "assets/certificates/scfb.png",
+    "url": "https://verified.sertifier.com/en/verify/84292499712757/?ref"
+  },
+  {
+    "name": "SummerCamp'22 || Tensorflow Bootcamp",
+    "imagePath": "assets/certificates/sctb.png",
+    "url": "https://verified.sertifier.com/en/verify/41923750590312/?ref"
+  },
+  {
+    "name": "Sıfırdan İleri Seviyeye Oyun Tasarlama",
+    "imagePath": "assets/certificates/sisot.jpg",
+    "url": "https://www.udemy.com/certificate/UC-bb1c912e-8ca3-4980-9d8b-53d1515b85ff/"
+  }
+]

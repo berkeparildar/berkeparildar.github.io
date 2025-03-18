@@ -1,0 +1,505 @@
+[
+  {
+    "projectName": "Block Blast",
+    "repositoryURL": "https://github.com/berkeparildar/Block-Blast",
+    "projectDescription": "Block Blast is a simple match-blast-collapse game for mobile platforms. The goal of the game is the complete the levels by blasting specific blocks.",
+    "projectFeatures": [
+      "Integrated Firebase Firestore to store level specific data like grid layout and level requirements.",
+      "Used various performance improving tools and designs like Sprite Atlas, Object Pooling.",
+      "Used specific block icons for the block amount in matched groups that update throught the game.",
+      "Implemented solutions for edge-case scenarios such as no possible matches left.",
+      "Published on Google Play Store after testing."
+    ],
+    "projectUsage": [
+      "Check out the required blocks to blast on the upper left corner in the screen.",
+      "Tap on groups of block that are two or more.",
+      "Aim to clear the level in the specified move amount.",
+      "Try to clear the upper rows of obstacle blocks first for higher chance of success."
+    ],
+    "videoURL": "https://youtu.be/2Llw06BK2g0",
+    "storeURL": "https://play.google.com/store/apps/details?id=com.bprldr.BlockBlast",
+    "tags": [
+      "Unity",
+      "C#",
+      "Mobile Game",
+      "Firestore"
+    ],
+    "type": "game",
+    "imageExt": ".jpg",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Holler",
+    "repositoryURL": "https://github.com/berkeparildar/Holler",
+    "projectDescription": "Holler is an iOS social media application inspired by Twitter, where users can share their thoughts, updates, and moments with others. The app provides a platform for users to post text and photos, interact with other users through likes and replies, and follow their favorite people to see their posts in a personalized feed.",
+    "projectFeatures": [
+      "Tabs and Navigation: The app features three tabs—Search, Feed, and Profile—allowing users to search for other users by username, view posts from followed users, and view or edit personal profile details.",
+      "Posting and Interaction: Users can create posts with text, photos, or both, and interact with posts by liking or replying.",
+      "User Profiles: Users can view other users' profiles, follow or unfollow them, and see their posts, profile image, banner image, and follower information.",
+      "Profile Customization: Users can edit and update their profile images and banner images, with images stored in Firebase Cloud Storage.",
+      "Backend Integration: The app uses Firebase Firestore for managing user data and posts, Firebase Authentication for account creation and login, and Firebase Cloud Storage for storing images.",
+      "Technical Stack: Developed using UIKit for the user interface, and following the MVVM (Model-View-ViewModel) architectural pattern to ensure a clean and maintainable codebase."
+    ],
+    "projectUsage": [
+      "Sign Up and Log In: Open Holler, sign up with email, password, name, and username, and log in using the registered email and password.",
+      "Navigate the App: Use the Search Tab to find and follow other users by typing their username, check the Feed Tab to see posts from followed users, and access the Profile Tab to view and edit personal profile information.",
+      "Create and Interact with Posts: Tap the create post button on the Feed page to add text and/or a photo, tap on a post to view it in detail and see replies, and like or reply to posts to engage with other users.",
+      "Manage Follows: Search for a user in the Search Tab, tap on their profile, click the follow button to see their posts in your feed, and tap the unfollow button to remove their posts from your feed.",
+      "Edit Profile: Go to the Profile Tab, tap the edit button, update your profile image or banner image, and save changes to update your profile."
+    ],
+    "videoURL": "https://youtu.be/qzHFDbrYlcA",
+    "storeURL": "",
+    "tags": [
+      "Swift",
+      "UIKit",
+      "Firestore"
+    ],
+    "type": "app",
+    "imageExt": ".png",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Decentralized Student Information System",
+    "repositoryURL": "https://github.com/DecentralizedStundetInformationSystem",
+    "projectDescription": "The Decentralized Student Information System (DSIS) is a blockchain-based application for student information management. By leveraging the power of decentralized technology, DSIS ensures transparent and secure storage of student data, while providing functionalities such as enrollment, term management, course evaluation, and attendance tracking. DSIS consists of three main components: a server, a desktop application for administrators and staff, and a mobile application for students.",
+    "projectFeatures": [
+      "Server provides functionalities such as enrollment, term management, course evaluation, and attendance tracking. Built using Node.js, the server component acts as the bridge between the blockchain network and client applications, enabling seamless interactions with the decentralized student information system.",
+      "The desktop application provides a user-friendly interface for administrators and staff members to efficiently manage student information. Student information that will be written on the blockchain is sent through this application.",
+      "The mobile application is designed specifically for students, allowing them to access their personal information securely from their mobile devices. It offers features like grades, attendance tracking, and other relevant information."
+    ],
+    "projectUsage": [
+      "Access a list of courses they are enrolled in and view detailed information about each course, including course name, instructor, credits, and evaluation.",
+      "Check their grades and attendance records for each course, providing them with real-time updates on their academic performance.",
+      "Log in and register using their email and password through Firebase's email/password authentication. This provides a secure and reliable authentication mechanism for accessing the application."
+    ],
+    "videoURL": "",
+    "storeURL": "",
+    "tags": [
+      "Solidity",
+      "Flutter",
+      "Java",
+      "NodeJS"
+    ],
+    "type": "app",
+    "imageExt": ".png",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Picker3D",
+    "repositoryURL": "https://github.com/berkeparildar/Picker3D",
+    "projectDescription": "Picker3D is a mobile game where players take control of a U shaped object. The objective is to collect all small obstacles in a platform and successfully carry them to the end of the level.",
+    "projectFeatures": [
+      "Used tweens for animating most of the environment and UI.",
+      "Used object-pooling for objects being dragged to improve performance.",
+      "Used CineMachine to control the camera movement during the ramp section.",
+      "Published on Google Play Store after testing."
+    ],
+    "projectUsage": [
+      "The picker automatically moves forward.",
+      "Swipe left or right: Control the horizontal movement of the picker object.",
+      "Collect everything along the platform.",
+      "Reach the end to push objects into the basket.",
+      "Gates open when the count is achieved, allowing progression to the next stage.",
+      "In ramp sections, tap repeatedly to gain speed."
+    ],
+    "videoURL": "https://youtu.be/vESaYdveps0",
+    "storeURL": "https://play.google.com/store/apps/details?id=com.bprldr.Picker3D",
+    "tags": [
+      "Unity",
+      "C#",
+      "Mobile Game"
+    ],
+    "type": "game",
+    "imageExt": ".jpg",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Market",
+    "repositoryURL": "https://github.com/berkeparildar/Market",
+    "projectDescription": "Market is an iOS application designed to transform your phone into a convenient marketplace. The app allows users to browse and purchase products easily through a user-friendly interface featuring categorized product listings, a dynamic cart system, and personalized product suggestions.",
+    "projectFeatures": [
+      "Integrated Firebase Authentication, Firestore, and Storage to handle back-end operations seamlessly.",
+      "Leveraged Keychain and Core Data for secure local storage of user and product data.",
+      "Utilized SnapKit to implement clean and efficient auto-layouts for UI components.",
+      "Designed and developed a modular networking package, ensuring maintainability and scalability.",
+      "Implemented Kingfisher to display and optimize images while minimizing memory usage.",
+      "Followed the VIPER architecture, ensuring maximum separation of concerns and ease of testing.",
+      "Incorporated MapKit and CoreLocation to display and manage user addresses effectively."
+    ],
+    "projectUsage": [
+      "Users can sign up or sign in using their email address.",
+      "Users can update their personal information, including their email address and password, if needed.",
+      "Add a new address, which will be automatically set as the current address. If multiple addresses exist, users can select their preferred address from a list.",
+      "Explore the classic market experience by browsing products by category, adding items to the cart, and tapping on them to view details. Once items are in the cart, suggested products will appear for additional selection.",
+      "Browse food and dishes by category or restaurant, view menus organized into different groups, check restaurant details, and personalize orders with various customization options."
+    ],
+    "videoURL": "https://youtu.be/MkUJI9T0r7U",
+    "storeURL": "",
+    "tags": [
+      "Swift",
+      "UIKit",
+      "Firestore"
+    ],
+    "type": "app",
+    "imageExt": ".png",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Road Cross",
+    "repositoryURL": "https://github.com/berkeparildar/Road-Cross",
+    "projectDescription": "Road Cross is a mobile game where players take control of a adventurous chicken attempting to cross busy roads and rivers. The objective is to navigate through the traffic and obstacles, avoiding collisions and reaching the other side to earn points.",
+    "projectFeatures": [
+      "Simple and endless gameplay.",
+      "Used Inheritance and Polymorphism for scalability.",
+      "Added sound effects that change with distance and plane.",
+      "Used voxel-style graphics for a charming and visually appealing experience."
+    ],
+    "projectUsage": [
+      "Swipe in the desired direction to move the chicken: up, down, left, or right.",
+      "Cross roads and rivers without getting hit by vehicles or falling into the water.",
+      "Earn points for each successful crossing.",
+      "The game ends if the chicken collides with a vehicle or falls into the water."
+    ],
+    "videoURL": "https://youtu.be/D_ytC4uhcgg",
+    "storeURL":  "https://play.google.com/store/apps/details?id=com.bprldr.RoadCross",
+    "tags": [
+      "Unity",
+      "C#",
+      "Mobile Game"
+    ],
+    "type": "game",
+    "imageExt": ".jpg",
+    "isLandscape": false
+  },
+  {
+    "projectName": "News",
+    "repositoryURL": "https://github.com/berkeparildar/News",
+    "projectDescription": "News is an iOS application designed to provide users with access to news articles from multiple categories and sources. The app allows users to customize their news feed by selecting preferred categories, view trending and top articles, and search for specific news stories, all within an intuitive and user-friendly interface.",
+    "projectFeatures": [
+      "Onboarding and Personalization: Users are greeted with an onboarding page that allows them to select news categories of interest, creating a personalized news feed tailored to their preferences.",
+      "Personal Feed: The feed page displays the current date, weather information, and a list of articles grouped by the selected categories, offering a customized browsing experience.",
+      "Trending and Top Articles: The second page of the app showcases trending and top articles from the last day, keeping users updated with the latest important news.",
+      "Category Navigation: The third page features a horizontally scrollable list of categories and their respective articles. Users can also navigate here by tapping on category titles in their personal feed.",
+      "Search Functionality: Each page includes a search button in the navigation bar, allowing users to search for articles by keywords and view results in a list format.",
+      "Seamless Browsing: Implemented paging for smooth and continuous article browsing, enhancing the user experience.",
+      "Custom Tab Bar: Designed a custom tab bar for easy navigation between different screens within the app.",
+      "Backend Integration: Utilized the News API to fetch articles and display them in the app, ensuring users have access to up-to-date news content.",
+      "Technical Stack: Developed using SwiftUI for the user interface, and followed the MVVM (Model-View-ViewModel) architectural pattern to ensure a clean and maintainable codebase."
+    ],
+    "projectUsage": [
+      "Onboard and Personalize: Open News, complete the onboarding process by selecting your preferred news categories, and proceed to your personalized feed.",
+      "Navigate the App: Use the custom tab bar to switch between your personal feed, trending and top articles, and the category page.",
+      "Browse and Read Articles: Scroll through your personal feed to read articles from your chosen categories, and tap on any article to read it in detail.",
+      "Search for News: Tap the search button in the navigation bar, enter keywords to find specific articles, and browse the search results.",
+      "Explore Categories: Navigate to the category page to view articles grouped by category, and tap on any category title in your feed to explore more articles in that category."
+    ],
+    "videoURL": "https://youtu.be/wPzSTrPbEFk",
+    "storeURL": "",
+    "tags": [
+      "Swift",
+      "SwiftUI",
+      "MVVM"
+    ],
+    "type": "app",
+    "imageExt": ".png",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Fall Parkour",
+    "repositoryURL": "https://github.com/berkeparildar/Fall-Parkour",
+    "projectDescription": "Fall Parkour is a multiplayer desktop game inspired by the popular game Fall Guys. Two players compete in a series of challenging race maps, with the goal of reaching the finish line before their opponent.",
+    "projectFeatures": [
+      "Used Photon Unity Network for multiplayer implementation.",
+      "Implemented match-making system for finding online lobbies.",
+      "Used CineMachine to create cinematic intros before levels.",
+      "Successfully synced animations and positions in online lobbies for seamless experience."
+    ],
+    "projectUsage": [
+      "~Door Dash~",
+      "Navigate through rows of doors.",
+      "Hit the doors to pass through and reach the finish line.",
+      "In each row, there are two fake doors that cannot be opened.",
+      "Find the real doors to progress.",
+      "Each row has fewer doors, making it harder to find the correct path.",
+      "The first player to reach the finish line wins the game.",
+      "~Big Fans~",
+      "Pass through a series of spinning fans.",
+      "Jump from fan to fan to progress.",
+      "Time your jumps perfectly to avoid falling.",
+      "In the later stages, watch out for fans with rotating sticks that can push you off.",
+      "This level also features a checkpoint system.",
+      "If you fall, you'll respawn at the last checkpoint.",
+      "The first player to reach the finish line wins the game.",
+      "~Slime Climb~",
+      "Ascend a platform filled with obstacles to reach the top.",
+      "Avoid the rising slime below; contact with it means defeat.",
+      "Navigate through rotating hammers, slippery floors, pendulum balls, and moving cube obstacles.",
+      "Be agile and precise to dodge obstacles and stay ahead of the slime.",
+      "The first player to reach the finish line wins the game."
+    ],
+    "videoURL": "https://youtu.be/jMtXLuWaQ-k",
+    "storeURL":  "",
+    "tags": [
+      "Unity",
+      "C#",
+      "Photon",
+      "Multiplayer"
+    ],
+    "type": "game",
+    "imageExt": ".jpg",
+    "isLandscape": true
+  },
+  {
+    "projectName": "HelpChain",
+    "repositoryURL": "https://github.com/B-C-Based-Disaster-Management",
+    "projectDescription": "This project's main goal and motivation are to provide a new blockchain based solution to disaster management. Disaster management consists of a series of disaster-related information processes in which the information is processed, stored, and disseminated to make effective decisions and construct a plan. Most of the current disaster management systems are infrastructure-dependent and work in a centralized manner, which can pose a threat in certain devastating outcomes. The involvement of both the government and the public is important in gathering and disseminating information, and their effectiveness would be severely diminished if these centralized and infrastructure dependent systems were to fail during the moments of disaster.",
+    "projectFeatures": [
+      "During the registration process, the user has to register with the system through a server because it is not feasible to create and deploy a smart contract from a mobile phone. Therefore, to sign up for the system, users must communicate with the server instead of the blockchain. The server gets the data that the user sends as parameters, which are \"Name\", \"Surname\", \"Address\", \"TCKN\" (Turkish State ID number) and using these parameters, it creates and deploys a smart contract. After creating and deploying the user’s contract to the system, the server provides the user his or her contract hash and writes that contract hash value to the Firebase. Users are required to access the blockchain with their own contract hash. This contract hash value is kept in a database to access the contracts from the desktop applications used by the relief organizations. Once registered, all the modifications to the existing records, such as address or status, will be reflected in the user's smart contract on the blockchain, by the server.",
+      "The desktop application, which is the organization interface, provides the users at the organization with the ability to traverse the blockchain according to the list of the users’ contracts obtained from the Firebase and read their latest data to list the people in the blockchain with the status and address values.",
+      "In the mobile application, users can create and log in to their own accounts. They will be logging in with their citizenship numbers and the password that they assigned for their accounts. The registered users can change their status to \"In distress\", \"Need Help\", \"Safe\" depending on the circumstances they are in during or after a disaster. They can also change their home address, preferably before the disastrous conditions take place, in case they move to a new location."
+    ],
+    "projectUsage": [
+      "We used a Metamask coin wallet to test the smart contracts that we have written using Solidity language. As the testing network, we chose the Sepolia Ethereum Testing Network because of its similarities to the popular commercial blockchain networks",
+      "Infura is the tool that we use to get connection addresses on the Sepolia Ethereum test network. It provided us with the API’s for that task.",
+      "Flutter is a framework that is built on Dart programming language. It is a cross platform development environment which means that we can publish the mobile application with single codebase in both Android and iOS. It has access to numerous tools such as Firebase connectivity and Web3 accesses.",
+      "We utilized .NET/.NET Core’s Windows Presentation Foundation (WPF) app for the desktop application (the application which the disaster organizations will use) as part of the system. The reason we have chosen the .NET/.NET Core is that it has a wide range of integration possibilities with the technologies that are in the Microsoft ecosystem.",
+      "Etherscan is a popular blockchain explorer and analytics platform especially designed for the Ethereum network. It provides us a means to track various Ethereum blockchain data that users send, such as transactions, smart contract creation, and event updates. We used this tool mainly when we did not have our “blockchain reading code” to validate and inspect the transactions and events that we send to the smart contracts."
+    ],
+    "videoURL": "",
+    "storeURL": "",
+    "tags": [
+      "Solidity",
+      "Flutter",
+      "C#",
+      "NodeJS"
+    ],
+    "type": "app",
+    "imageExt": ".png",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Freeway Drive",
+    "repositoryURL": "https://github.com/berkeparildar/Freeway-Drive",
+    "projectDescription": "Freeway Drive is an endless driving game where players take control of a moving car on a busy freeway. The car gradually gains speed as the game progresses, challenging players' reflexes and decision-making.",
+    "projectFeatures": [
+      "Implemented endless driving gameplay.",
+      "Added gradually increasing car speed, making the gameplay more exciting and challenging as it goes on.",
+      "Realistic freeway environment with randomly generated cars and smooth controls, realistic based on Turkish Traffic!",
+      "Added a handling power-up to enhance player's ability to change lanes quickly for a short period of time.",
+      "Added a ghost power-up, which can be used to temporarily phase through other cars and avoid collisions.",
+      "Added in-game money, which can be picked up on the freeway and spent on customizing the car's color.",
+      "Implemented rewarded ad system which allows a second chance if you crash during the game."
+    ],
+    "projectUsage": [
+      "Swipe left or right to change lanes and avoid collisions with other cars.",
+      "Watch out for randomly generated cars changing lanes, indicated by their blinkers.",
+      "Collect handling power-ups to reduce lane-changing time, aiding in avoiding collisions.",
+      "Pick up ghost power-ups to temporarily become transparent and move through other cars to avoid collisions.",
+      "Customize your car's color using one of the six available color options, each costing 100$.",
+      "If you crash, you can watch a rewarded ad video to continue the game from where you left off.",
+      "Reach the highest score possible by surviving as long as you can, combining top speed and survival time."
+    ],
+    "videoURL": "https://youtu.be/tqJnv6PXmFk",
+    "storeURL":  "https://play.google.com/store/apps/details?id=com.bprldr.freewaydrive",
+    "tags": [
+      "Unity",
+      "C#",
+      "Mobile Game"
+    ],
+    "type": "game",
+    "imageExt": ".jpg",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Weather",
+    "repositoryURL": "https://github.com/berkeparildar/Weather",
+    "projectDescription": "Weather is an iOS application for instantly checking current weather conditions and forecasts for any location you desire. Weather delivers accurate and up-to-date weather data along with a user-friendly interface.",
+    "projectFeatures": [
+      "Current Weather and Forecasts: Access real-time weather information including temperature, weather projectDescription, local time, and daily/hourly forecasts for any location worldwide.",
+      "OpenWeatherMap API Integration: Utilizes the OpenWeatherMap API to gather current and forecasted weather data, ensuring reliability and precision.",
+      "Location Search: Easily find and add locations using the integrated search bar. The app utilizes MKSearch to retrieve location names and coordinates based on user input.",
+      "Home Screen: Added locations are displayed on the home screen as tiles, each showcasing the current weather temperature, location name, local time, weather projectDescription, highest, and lowest temperatures.",
+      "Detailed Weather Information: Tap on a location tile to delve deeper into its weather forecast. View hourly forecasts, a 5-day outlook with high and low temperatures, and weather projectDescriptions accompanied by weather icons.",
+      "Dynamic Backgrounds: Each location's tile features a custom image background that dynamically changes based on the local time (day or night) of that location.",
+      "Persistent Storage with Core Data: The app utilizes Core Data to save added locations. This means that once a location is added, it is stored locally, allowing users to access their preferred locations without the need to add them repeatedly. Users can remove stored locations any time they want from the Home Screen."
+    ],
+    "projectUsage": [
+      "Add Locations: Use the search bar in the navigation bar to find and add locations of interest.",
+      "View Weather Data: Instantly see current weather details on each added location's tile, including temperature, local time, and weather projectDescription.",
+      "Tap on a location tile to access detailed forecasts. View hourly forecasts for the upcoming hours and a 5-day forecast with high and low temperatures."
+    ],
+    "videoURL": "https://youtu.be/gEnF44S22-E",
+    "storeURL": "",
+    "tags": [
+      "Swift",
+      "UIKit",
+      "MVVM"
+    ],
+    "type": "app",
+    "imageExt": ".png",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Putt Time",
+    "repositoryURL": "https://github.com/berkeparildar/Putt-Time",
+    "projectDescription": "Putt Time is a multiplayer desktop golf game designed for up to four players. Players can create or join rooms and engage in golf matches across three maps: Classicton, Jumpington, and Spinnington.",
+    "projectFeatures": [
+      "Play golf across six holes in each map: Classicton, Jumpington, and Spinnington.",
+      "Classicton: Enjoy a classic golf experience.",
+      "Spinnington: Navigate spinning obstacles on all six courses to reach the hole.",
+      "Jumpington: Utilize jumping pads to make your ball soar into the air and reach the hole strategically.",
+      "Engaging multiplayer golf experience with up to four players.",
+      "Online multiplayer functionality using Photon Unity Network.",
+      "Ball control with intuitive clicking and dragging mechanics.",
+      "Dynamic direction identifiers for precise shot planning.",
+      "Camera system for adjusting the view with mouse movements and zooming.",
+      "Checkpoint system for players, relocating them if the ball goes out of bounds."
+    ],
+    "projectUsage": [
+      "Choose a name that will act as your user name in rooms.",
+      "Join or create a room with up to four players.",
+      "Room owners get a random room ID, shareable for friends to join the lobby.",
+      "The lobby displays the names of all players, allowing easy tracking of participants.",
+      "Control the ball by clicking and dragging, adjusting the hit's direction and power.",
+      "Direction indicators show the current ball trajectory during dragging.",
+      "The more powerful the hit, indicators will change color and rotate faster and wider.",
+      "Players can adjust camera view horizontally and vertically by mouse movement, or zoom in and out using their mouse wheel.",
+      "Keep track of your and other players' par, strokes, and hole progression on the scorecard.",
+      "Once all players complete a course, move on to the next one.",
+      "After finishing all six courses in a map, the winner is announced by name and color."
+    ],
+    "videoURL": "https://youtu.be/SRp2cSUUpRo",
+    "storeURL":  "",
+    "tags": [
+      "Unity",
+      "C#",
+      "Photon",
+      "Multiplayer"
+    ],
+    "type": "game",
+    "imageExt": ".jpg",
+    "isLandscape": true
+  },
+  {
+    "projectName": "Wonders",
+    "repositoryURL": "https://github.com/berkeparildar/Wonders",
+    "projectDescription": "Wonders is an iOS app developed using SwiftUI, accompanied by a robust backend server developed with ASP.NET Core. The app serves as a comprehensive guide for users to explore tourist attractions and must-visit places in various countries.",
+    "projectFeatures": [
+      "Country Selection: Users are presented with a grid of country images and names on the home screen. A search bar allows users to quickly locate a specific country of interest.",
+      "Tourist Attractions: Upon selecting a country, users can explore a list of tourist attractions. Each attraction is accompanied by an image, a name, and a categorization tag (e.g., historic place, museum).",
+      "Filter and Sort: Users can refine their search by using the search bar to find a specific attraction. Tags enable users to filter attractions based on categories like historic places, museums, etc. Attractions can be sorted alphabetically for ease of navigation.",
+      "Attraction Details: Tapping on an attraction provides detailed information. A larger image of the attraction is displayed, along with its current open/closed status. A small map shows the attraction's location using Apple Maps, offering both a standard and a 3D view.",
+      "Server Interaction: The app fetches data from the ASP.NET Core server via GET requests. The server provides specific JSON data for countries, as well as images for both countries and attractions. Data is decoded into appropriate models for seamless integration into the app."
+    ],
+    "projectUsage": [
+      "Use the home screen to visually select a country or employ the search bar for quicker access.",
+      "Tap on a country to view a list of tourist attractions.",
+      "Utilize search, tags, and alphabetical sorting to find specific attractions.",
+      "Tap on an attraction to access detailed information, like its current open/closed status, or the location.",
+      "Easily go back to select another attraction, explore more destinations, or choose a different country."
+    ],
+    "videoURL": "https://youtu.be/uxPh-ew53DE",
+    "storeURL": "",
+    "tags": [
+      "Swift",
+      "SwiftUI",
+      "ASP .NET Core"
+    ],
+    "type": "app",
+    "imageExt": ".png",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Space Gun Run",
+    "repositoryURL": "https://github.com/berkeparildar/Gun-Run",
+    "projectDescription": "Space Gun Run is a runner-style game where players control a moving gun on a dynamic platform. The objective is to shoot at different obstacles and collect ammo to advance through the levels.",
+    "projectFeatures": [
+      "Players control a gun that moves horizontally on a moving platform.",
+      "Two types of obstacles exist on the platform: Ammo and Walls.",
+      "Ammo: Shoot at ammo to collect bullets, and when the chamber is full, move to the ammo wall to unload the collected ammo.",
+      "Ammo Wall: A wall that displays collected ammo and rewards players with EXP points when fully loaded.",
+      "Walls: Objects on the platform that reward players with random perks: FireRate, FireRange, and GunEXP.",
+      "Perk Points: Accumulate perk points by shooting at walls. These points increase the effect of the perk received.",
+      "End of Platform: Reach the end of the platform to encounter rows of barrels with money on top. Shoot and collect as much money as possible.",
+      "Gun Crash: If the gun collides with a high health barrel row, proceed to the next level."
+    ],
+    "projectUsage": [
+      "Control the moving gun by swerving horizontally on the platform to avoid obstacles and collect ammo.",
+      "Shoot at Ammo to increase the bullets in the chamber. Once the chamber is full, proceed to the Ammo Wall to get your EXP points.",
+      "Shoot at Walls to accumulate perk points. The more you shoot, the stronger the perks you receive.",
+      "Reach the end of the platform to collect money from barrels. Shoot and collect as much money as possible.",
+      "Use the collected money at the end of each level to purchase permanent perks, upgrade guns, and improve gameplay abilities.",
+      "Watch rewarded ads to earn extra in-game currency for faster progress.",
+      "The game has an endless gameplay loop with increasing platform length and random obstacle generation."
+    ],
+    "videoURL": "https://youtu.be/EbHNhdFMDQ8",
+    "storeURL":  "https://play.google.com/store/apps/details?id=com.bprldr.spacegunrun",
+    "tags": [
+      "Unity",
+      "C#",
+      "Mobile Game"
+    ],
+    "type": "game",
+    "imageExt": ".jpg",
+    "isLandscape": false
+  },
+  {
+    "projectName": "I Want Sun",
+    "repositoryURL": "https://github.com/berkeparildar/I-Want-Sun",
+    "projectDescription": "I Want Sun is an 2D merge mobile game heavily inspired by the popular game I Want Watermelon. In this game, player merges different variety of planets in our Solar System, and aims to create a Sun.",
+    "projectFeatures": [
+      "Addictive and strategic gameplay, challenging players to create larger planets.",
+      "Keep an eye on your score and the number of suns acquired.",
+      "Control FX and music volume to tailor the gaming experience."
+    ],
+    "projectUsage": [
+      "Tap to drop planets from the top of the screen.",
+      "Planets of the same type merge upon contact, forming a bigger planet.",
+      "Merge planets strategically to maximize the score.",
+      "Avoid stacking planets too high and hitting the limit.",
+      "Achieve the ultimate goal: create a sun by merging planets efficiently."
+    ],
+    "videoURL": "https://youtu.be/2yEiP8obIEc",
+    "storeURL":  "https://play.google.com/store/apps/details?id=com.bprldr.IWantSun",
+    "tags": [
+      "Unity",
+      "C#",
+      "Mobile Game"
+    ],
+    "type": "game",
+    "imageExt": ".jpg",
+    "isLandscape": false
+  },
+  {
+    "projectName": "Gem Match!",
+    "repositoryURL": "https://github.com/berkeparildar/Gem-Match",
+    "projectDescription": "Gem Match! is a puzzle game where players aim to match at least three gems of the same type vertically or horizontally. The game features a grid of colorful gems with six different varieties.",
+    "projectFeatures": [
+      "User-Friendly Interface: Users can easily tap on the currency icons to select their current currency and the target currency for conversion.",
+      "Wide Currency Support: The app provides access to 16 different currencies, offering a broad range of options for users.",
+      "Real-time Target Currency Update: The target currency dynamically updates in real-time with each input, allowing users to see instant conversions.",
+      "Exchange Rates API Integration: Exchange rates for all available currencies are set with the base currency being USD.",
+      "The entered amount is converted to the target currency by considering the latest exchange rates, ensuring accuracy in calculations."
+    ],
+    "projectUsage": [
+      "Touch and drag a gem to swap it with an adjacent gem in the desired direction.",
+      "Match at least three gems of the same type vertically or horizontally to destroy them.",
+      "After gems are destroyed, the gems above them in the grid will fall into their place.",
+      "Earn 100 points for each gem destroyed in a match.",
+      "New random gems will fill in the empty spots.",
+      "You have a 10-second time limit from the start of the game.",
+      "Each gem in a match awards you with additional seconds.",
+      "If you run out of time, the game ends."
+    ],
+    "videoURL": "https://youtu.be/jnGv_1mKeRc",
+    "storeURL":  "https://play.google.com/store/apps/details?id=com.bprldr.gemmatch",
+    "tags": [
+      "Unity",
+      "C#",
+      "Mobile Game"
+    ],
+    "type": "game",
+    "imageExt": ".jpg",
+    "isLandscape": false
+  }
+]
